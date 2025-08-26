@@ -17,7 +17,6 @@ import { Plus } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
 import { Polygon } from "react-leaflet";
-import { flattenDepth } from "lodash";
 
 export default function Home() {
   const position = [1.3521, 103.8198];
@@ -32,23 +31,53 @@ export default function Home() {
     []
   );
 
-
-  // Client-side only Polygon component
   const generatePolygons = (data) => {
-    return data.map((reg, idx) => {
-      const coordsForRegion = MOCK_COORDS[reg.regions];
+    return data.flatMap((reg, idx) => {
+      const allPolygons = [];
 
-      if (!coordsForRegion) return null;
+      // Handle compliant regions
+      if (reg.regionsCompliant && reg.regionsCompliant.length > 0) {
+        reg.regionsCompliant.forEach((regionName, regionIdx) => {
+          const polygons = MOCK_COORDS[regionName];
+          if (!polygons) return;
 
-      console.log(coordsForRegion)
+          polygons.forEach((coords, polyIdx) => {
+            allPolygons.push(
+              <Polygon
+                key={`polygon-${idx}-compliant-${regionIdx}-${polyIdx}`}
+                positions={coords} // [lat, lon]
+                pathOptions={{
+                  color: "#2fba16",
+                  weight: 1.5
+                }}
+              />
+            );
+          });
+        });
+      }
 
-      return (
-        <Polygon
-          key={`polygon-${idx}`}
-          positions={coordsForRegion}
-          pathOptions={{ color: reg.compliant ? "#060606" : "#454545", weight: 1.5 }}
-        />
-      );
+      // Handle non-compliant regions
+      if (reg.regionsNotCompliant && reg.regionsNotCompliant.length > 0) {
+        reg.regionsNotCompliant.forEach((regionName, regionIdx) => {
+          const polygons = MOCK_COORDS[regionName];
+          if (!polygons) return;
+
+          polygons.forEach((coords, polyIdx) => {
+            allPolygons.push(
+              <Polygon
+                key={`polygon-${idx}-noncompliant-${regionIdx}-${polyIdx}`}
+                positions={coords} // [lat, lon]
+                pathOptions={{
+                  color: "#b91919",
+                  weight: 1.5
+                }}
+              />
+            );
+          });
+        });
+      }
+
+      return allPolygons;
     });
   };
 
