@@ -1,7 +1,8 @@
 "use client";
 
 import { columns } from "@/components/Columns";
-import { REGION_COORDINATES } from "@/components/coords";
+import { MOCK_COORDS } from "@/lib/mock/coords";
+import { MOCK_DATA } from "@/lib/mock/data";
 import { FeaturesTable } from "@/components/FeaturesTable";
 import { Button } from "@/components/ui/Button";
 import {
@@ -16,6 +17,7 @@ import { Plus } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
 import { Polygon } from "react-leaflet";
+import { flattenDepth } from "lodash";
 
 export default function Home() {
   const position = [1.3521, 103.8198];
@@ -30,18 +32,25 @@ export default function Home() {
     []
   );
 
-  function generatePolygons(data) {
-    return data.map((oneRegion, index) => (
-      <Polygon
-        positions={COORDINATES[oneRegion.region]}
-        color={oneRegion.compliant ? "green" : "red"}
-        pathOptions={{
-          weight: "1.5"
-        }}
-        key={`polygon-region-${index}`}
-      />
-    ));
-  }
+
+  // Client-side only Polygon component
+  const generatePolygons = (data) => {
+    return data.map((reg, idx) => {
+      const coordsForRegion = MOCK_COORDS[reg.regions];
+
+      if (!coordsForRegion) return null;
+
+      console.log(coordsForRegion)
+
+      return (
+        <Polygon
+          key={`polygon-${idx}`}
+          positions={coordsForRegion}
+          pathOptions={{ color: reg.compliant ? "#060606" : "#454545", weight: 1.5 }}
+        />
+      );
+    });
+  };
 
   return (
     <section
@@ -69,7 +78,7 @@ export default function Home() {
               position={position}
               zoom={12}
             >
-              {generatePolygons(REGION_COORDINATES.US)}
+              {generatePolygons(MOCK_DATA)}
             </Map>
           </CardContent>
         </Card>
