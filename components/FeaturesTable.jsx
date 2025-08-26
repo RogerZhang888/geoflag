@@ -14,17 +14,12 @@ import {
    TableHead,
    TableHeader,
    TableRow,
-} from "@/components/ui/table"
+} from "@/components/ui/Table"
 
-interface DataTableProps<TData, TValue> {
-   columns: ColumnDef<TData, TValue>[]
-   data: TData[]
-}
-
-export function FeaturesTable<TData, TValue>({
+export function FeaturesTable({
    columns,
    data,
-}: DataTableProps<TData, TValue>) {
+}) {
    
    const table = useReactTable({
       data,
