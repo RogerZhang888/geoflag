@@ -1,6 +1,7 @@
 "use client";
 
 import { columns } from "@/components/Columns";
+import { REGION_COORDINATES } from "@/components/coords";
 import { FeaturesTable } from "@/components/FeaturesTable";
 import { Button } from "@/components/ui/Button";
 import {
@@ -11,13 +12,13 @@ import {
   CardTitle
 } from "@/components/ui/Card";
 import { MOCK_FEATURE_DATA } from "@/lib/mock";
-import { ArrowUp, Plus } from "lucide-react";
+import { Plus } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
-import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
+import { Polygon } from "react-leaflet";
 
 export default function Home() {
-  const position = [51.505, -0.09];
+  const position = [1.3521, 103.8198];
 
   const Map = useMemo(
     () =>
@@ -28,6 +29,19 @@ export default function Home() {
       }),
     []
   );
+
+  function generatePolygons(data) {
+    return data.map((oneRegion, index) => (
+      <Polygon
+        positions={COORDINATES[oneRegion.region]}
+        color={oneRegion.compliant ? "green" : "red"}
+        pathOptions={{
+          weight: "1.5"
+        }}
+        key={`polygon-region-${index}`}
+      />
+    ));
+  }
 
   return (
     <section
@@ -53,8 +67,10 @@ export default function Home() {
             <Map
               className="w-full h-[400px] md:h-[600px] z-10 rounded"
               position={position}
-              zoom={16}
-            />
+              zoom={12}
+            >
+              {generatePolygons(REGION_COORDINATES.US)}
+            </Map>
           </CardContent>
         </Card>
       </div>
