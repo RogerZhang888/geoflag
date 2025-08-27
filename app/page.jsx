@@ -1,7 +1,7 @@
 "use client";
 
 import { columns } from "@/components/Columns";
-import { MOCK_COORDS } from "@/lib/mock/coords";
+import { COORDS } from "@/lib/openstreetmap/simplified/coords";
 import { MOCK_DATA } from "@/lib/mock/data";
 import { FeaturesTable } from "@/components/FeaturesTable";
 import { Button } from "@/components/ui/Button";
@@ -38,7 +38,7 @@ export default function Home() {
       // Handle compliant regions
       if (reg.regionsCompliant && reg.regionsCompliant.length > 0) {
         reg.regionsCompliant.forEach((regionName, regionIdx) => {
-          const polygons = MOCK_COORDS[regionName];
+          const polygons = COORDS[regionName];
           if (!polygons) return;
 
           polygons.forEach((coords, polyIdx) => {
@@ -59,7 +59,7 @@ export default function Home() {
       // Handle non-compliant regions
       if (reg.regionsNotCompliant && reg.regionsNotCompliant.length > 0) {
         reg.regionsNotCompliant.forEach((regionName, regionIdx) => {
-          const polygons = MOCK_COORDS[regionName];
+          const polygons = COORDS[regionName];
           if (!polygons) return;
 
           polygons.forEach((coords, polyIdx) => {
