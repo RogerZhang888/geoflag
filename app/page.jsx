@@ -13,11 +13,14 @@ import {
   CardTitle
 } from "@/components/ui/Card";
 import { MOCK_FEATURE_DATA } from "@/lib/mock";
-import { Plus } from "lucide-react";
+import { Loader2, Plus } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
-import { Polygon } from "react-leaflet";
 
+const Polygon = dynamic(
+  () => import("react-leaflet").then((mod) => mod.Polygon),
+  { ssr: false }
+);
 export default function Home() {
   const position = [1.3521, 103.8198];
 
@@ -25,7 +28,7 @@ export default function Home() {
     () =>
       dynamic(() => import("@/components/Map"), {
         // eslint-disable-next-line react/no-unstable-nested-components
-        loading: () => <p>A map is loading</p>,
+        loading: () => <Loader2 className="h-8 w-8 mt-2 animate-spin" />,
         ssr: false
       }),
     []
@@ -84,7 +87,7 @@ export default function Home() {
   return (
     <section
       id="main-page"
-      className="flex flex-col justify-center size-full items-center gap-8"
+      className="flex flex-col justify-center size-full items-center gap-8 my-8"
     >
       <div className="px-6 sm:px-16 max-w-screen-xl mx-auto size-full">
         <Card>
