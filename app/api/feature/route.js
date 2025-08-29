@@ -7,6 +7,22 @@ import {
   storeFeatures
 } from "@/lib/llm";
 
+/**
+ * Lightweight feature validation.
+ * Uses the same LLM to classify if input is a meaningful feature for compliance.
+ */
+async function isValidFeature(title, description) {
+  try {
+    const result = await queryLLM(title, description, "validate");
+    if (!result || typeof result !== "string") return false;
+    const normalized = result.trim().toLowerCase();
+    return normalized === "yes";
+  } catch (err) {
+    console.warn("Feature validation failed, treating as invalid:", err);
+    return false;
+  }
+}
+
 export async function POST(req) {
   try {
     const body = await req.json();
@@ -18,6 +34,16 @@ export async function POST(req) {
         { status: 400 }
       );
     }
+
+    // Step 0: Check if input is a valid feature
+    const validFeature = await isValidFeature(title, description);
+    if (!validFeature) {
+      return NextResponse.json(
+        { error: "Input does not appear to be a meaningful feature" },
+        { status: 400 }
+      );
+    }
+
     // Step 1: Generate embedding
     const embedding = await generateEmbedding(`${title} ${description}`);
     if (!embedding) {
@@ -57,6 +83,7 @@ export async function POST(req) {
       feature,
       reason: llmResult.reason
     });
+
   } catch (err) {
     console.error("Error in /api/post-feature:", err);
     return NextResponse.json(
