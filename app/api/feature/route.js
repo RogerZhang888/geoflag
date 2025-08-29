@@ -56,10 +56,8 @@ export async function POST(req) {
     // Step 2: Query embedding → retrieve array of JSON docs
     const documents = await queryEmbedding(embedding);
     if (!Array.isArray(documents) || documents.length === 0) {
-      return NextResponse.json(
-        { error: "No related documents found" },
-        { status: 500 }
-      );
+      console.warn( "No related documents found" );
+      // TODO: we need to add a inconclusive feature here
     }
 
     // Step 3: Query LLM with title, description, and documents
