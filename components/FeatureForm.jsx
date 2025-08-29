@@ -19,23 +19,29 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import axios from "axios";
+import { useRouter } from "next/navigation";
 
 const minWords = 1;
 
 // Zod schema
 const FeatureSchema = z.object({
-  feat: z.string().nonempty("Feature is required"),
-  desc: z.string().refine((val) => val.trim().split(/\s+/).length >= minWords, {
-    message: `Must contain at least ${minWords} words`
-  })
+  title: z.string().nonempty("Feature is required"),
+  description: z
+    .string()
+    .refine((val) => val.trim().split(/\s+/).length >= minWords, {
+      message: `Must contain at least ${minWords} words`
+    })
 });
 
 export default function FeatureForm() {
+
+   const router = useRouter();
+
   const form = useForm({
     resolver: zodResolver(FeatureSchema),
     defaultValues: {
-      feat: "",
-      desc: ""
+      title: "",
+      description: ""
     },
     mode: "onChange", // validate on every change
     reValidateMode: "onChange" // revalidate when input changes again
@@ -45,36 +51,24 @@ export default function FeatureForm() {
     try {
       console.log(
         `Attempting to find compliance data for 
-        feature "${data.feat}" with description ${data.desc}`
+        feature "${data.title}" with description ${data.description}`
       );
 
-      const res = await axios.post(
-         "/api/feature", 
-         data
-      );
+      const res = await axios.post("/api/feature", data);
 
-      toast.success(
-         "Compliance data has been generated.", 
-         // {
-         //    action: {
-         //       label: "Undo",
-         //       onClick: () => console.log("Undo"),
-         //    },
-         // }
-      )
+      const c = JSON.parse(res.data.isCompliant);
 
-      console.log("Response:", res);
+      const { us, utah, florida, california, eu } = c;
+
+      toast.success("Compliance data has been generated");
+
+      console.log("Compliance data:", c);
+
+      router.push("/");
+
     } catch (error) {
       console.error("Error when finding compliance data for feature:", error);
-      toast.error(
-         "Compliance data could not be generated. Try again.", 
-         // {
-         //    action: {
-         //       label: "Undo",
-         //       onClick: () => console.log("Undo"),
-         //    },
-         // }
-      )
+      toast.error("Compliance data could not be generated. Try again.");
     }
   }
 
@@ -87,7 +81,7 @@ export default function FeatureForm() {
         {/* Feature input */}
         <FormField
           control={form.control}
-          name="feat"
+          name="title"
           render={({ field }) => (
             <FormItem>
               <FormLabel>Feature</FormLabel>
@@ -103,7 +97,7 @@ export default function FeatureForm() {
         {/* Description textarea */}
         <FormField
           control={form.control}
-          name="desc"
+          name="description"
           render={({ field }) => (
             <FormItem>
               <FormLabel>Description</FormLabel>
