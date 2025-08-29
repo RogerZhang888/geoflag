@@ -1,6 +1,11 @@
 // app/api/post-feature/route.js
 import { NextResponse } from "next/server";
-import { generateEmbedding, queryEmbedding, queryLLM, storeFeatures } from "@/lib/llm";
+import {
+  generateEmbedding,
+  queryEmbedding,
+  queryLLM,
+  storeFeatures
+} from "@/lib/llm";
 
 export async function POST(req) {
   try {
@@ -13,7 +18,6 @@ export async function POST(req) {
         { status: 400 }
       );
     }
-
     // Step 1: Generate embedding
     const embedding = await generateEmbedding(`${title} ${description}`);
     if (!embedding) {
@@ -51,7 +55,7 @@ export async function POST(req) {
     // Step 5: Return feature + reasoning
     return NextResponse.json({
       feature,
-      reason: llmResult.reason,
+      reason: llmResult.reason
     });
   } catch (err) {
     console.error("Error in /api/post-feature:", err);

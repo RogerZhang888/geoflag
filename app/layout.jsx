@@ -6,8 +6,9 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "TikTok Techjam Project",
-  description: "A project for TikTok Techjam 2025 Track 3"
+  title: "GeoFlag",
+  description:
+    "Navigate the complexity of global regulations with GeoComply, a private LLM-powered compliance assistant. Designed for global apps like TikTok, GeoComply provides real-time visibility into region-specific legal obligations across the US (Utah, Florida, California), EU, and beyond."
 };
 
 export default function RootLayout({ children }) {

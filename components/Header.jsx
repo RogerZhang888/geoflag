@@ -17,19 +17,19 @@ const Header = () => {
         {/* 1280px */}
         <div className="items-center flex">
           <Link
-            className="hover:opacity-70 text-primary font-bold text-sm flex items-center gap-2 whitespace-nowrap"
+            className="hover:opacity-70 text-primary font-bold text-lg flex items-center gap-2 whitespace-nowrap"
             href="/"
           >
             <span className="relative w-[30px] h-[30px]">
               <Image
                 src="/logo/logo.png"
                 alt="logo"
-                sizes="30px"
+                sizes="40px"
                 fill
                 className="object-contain"
               />
             </span>
-            Name
+            GeoFlag
           </Link>
         </div>
         <MobileHeader />

@@ -14,7 +14,7 @@ export default function Error({ error }) {
 
   return (
     <>
-      <title>500 Error | name</title>
+      <title>500 Error | GeoFlag</title>
       <div className={cn("w-full px-6 sm:px-16 max-w-screen-xl mx-auto")}>
         <div className="flex flex-col justify-center h-full items-center min-h-[calc(100vh-80px)]">
           <h1 className="text-2xl font-bold">500</h1>
