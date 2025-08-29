@@ -1,0 +1,762 @@
+[
+    {
+        "kb": "The_Florida_Senate",
+        "article number": null,
+        "type": "article",
+        "section": null,
+        "text": "FLORIDA HOUSE O F REP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature An act relating to online protections for minors; creating s.",
+        "word count": 26
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "article",
+        "section": null,
+        "text": "1736, F.S.; defining terms; requiring social media platforms to prohibit certain minors from creating new accounts; requiring social media platforms to terminate certain accounts and provide additional options for termination of such accounts; providing conditions under which social media platforms are required to prohibit certain minors from entering into contracts to become account holders; authorizing the Department of Legal Affairs to bring actions under the Florida Deceptive and Unfair Trade Practices Act for knowing or reckless violations; authorizing the department to issue and enforce civil investigative demands under certain circumstances; providing civil penalties; authorizing punitive damages under certain circumstances; providing for ma AD oO FF W NY FPF DO OAD TO FF W NY FR private causes of action; requiring that such actions io} be brought within a specified timeframe; providing ND co} that certain social media platforms are subject to the ND fay jurisdiction of state courts; providing that if a NO ND social media platform allows an account holder to use ND Ww such platform, the parties have entered into a ND a contract; providing construction; authorizing the ND on department to take certain investigative and Page 1 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FLORIDA HOUSE O F REP RES EN TA TIVE S ENROLLED CS/ICS/JHB3, Engrossed 1 2024 Legislature 26 compliance actions; authorizing the department to 27 adopt rules; creating s.",
+        "word count": 230
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "article",
+        "section": null,
+        "text": "1737, F.S.; defining 28 terms; requiring a commercial entity that knowingly 29 and intentionally publishes or distributes material 30 harmful to minors on a website or application that 31 contains a substantial portion of such material to use 32 certain verification methods and prevent access to 33 such material by minors; providing applicability and 34 construction; authorizing the department to bring 35 actions under the Florida Deceptive and Unfair Trade 36 Practices Act for violations; providing civil 37 penalties; authorizing punitive damages under certain 38 circumstances; providing for private causes of action; 39 requiring that such actions be brought within a 40 specified timeframe; providing that certain commercial 4l entities are subject to the jurisdiction of state 42 courts; providing construction; authorizing the 43 department to take certain investigative and 44 compliance actions; authorizing the department to 45 adopt rules; creating s.",
+        "word count": 142
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "article",
+        "section": null,
+        "text": "1738, F.S.; defining the 46 term \"anonymous age verification\"; providing 47 requirements for a third party conducting age 48 verification pursuant to certain provisions; providing 49 for severability; providing an effective date. 50 Page 2 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 51 Be It Enacted by the Legislature of the State of Florida: 52 53",
+        "word count": 80
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1",
+        "type": "section",
+        "section": "Section 1",
+        "text": ".",
+        "word count": 1
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": ".1736, Florida Statutes, is created 54 to read: 55",
+        "word count": 9
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "1736 Social media use for minors.— 56",
+        "word count": 7
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1",
+        "type": "section",
+        "section": "Section 501",
+        "text": "As used in this section, the term: 57 (a) \"Account holder\" means a resident who opens an account 58 or creates a profile or is identified by the social media 59] platform by a unigue identifier while using or accessing a 60 social media platform when the social media platform knows or 61 has reason to believe the resident is located in this state. 62 (b) \"Daily active users\" means the number of unique users 63 in the United States who used the online forum, website, or 64 application at least 80 percent of the days during the previous 65 12 months, or, if the online forum, website, or application did 66] not exist during the previous 12 months, the number of unique 67 users in the United States who used the online forum, website, 68 or application at least 80 percent of the days during the 69 previous month. 70 (c) \"Department\" means the Department of Legal Affairs. 71 (d) \"Resident\" means a person who lives in this state for 72 more than 6 months of the year. 73 (e) \"Social media platform\" means an online forum, 74 website, or application that satisfies each of the following 75 criteria: Page 3 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 76",
+        "word count": 234
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Allows users to upload content or view the content or 77 activity of other users; 78",
+        "word count": 16
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Ten percent or more of the daily active users who are 79 younger than 16 years of age spend on average 2 hours per day or 80 longer on the online forum, website, or application on the days 81 when using the online forum, website, or application during the 82 previous 12 months or, if the online forum, website, or 83} application did not exist during the previous 12 months, during 84 the previous month; 85",
+        "word count": 76
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Employs algorithms that analyze user data _or 86 information on users to select content for users; and 87",
+        "word count": 18
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Has any of the following addictive features: 88 a. Infinite scrolling, which means either: 89 (I) Continuously loading content, or content that loads as 90 the user scrolls down the page without the need to open a 91 separate page; or 92 (II) Seamless content, or the use of pages with no visible 93 or apparent end or page breaks. 94 b. Push notifications or alerts sent by the online forum, 95) website, or application to inform a_user about specific 96 activities or events related to the user's account. 97 c. Displays personal interactive metrics that indicate the 98 number of times other users have clicked a button to indicate 99! their reaction to content or have shared or reposted the 100 content. Page 4 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature O1 d. Auto-play video or video that begins to play without 02 the user first clicking on the video or on a play button for 03 that video. 04 e. Live-streaming or a function that allows a_user or 05 advertiser to broadcast live video content in real-time. 06 07 The term does not include an online service, website, or 08 application where the exclusive function is e-mail or direct 09) messaging consisting of text, photographs, pictures, images, or 0 videos shared only between the sender and the recipients, 1 without displaying or posting publicly or to other users not 2 specifically identified as the recipients by the sender. 3",
+        "word count": 265
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "(a) A social media platform shall prohibit a minor who 4 is younger than 14 years of age from entering into a contract 5 with a social media platform to become an account holder. 6 (b) A social media platform shall: 7",
+        "word count": 42
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Terminate any account held by an account holder younger 8 than 14 years of age, including accounts that the social media 9 platform treats or categorizes as belonging to an account holder 20 who is likely younger than 14 years of age for purposes of 21 targeting content or advertising, and provide 90 days for an 22 account holder to dispute such termination. Termination must _be 23| effective upon the expiration of the 90 days if the account 24 holder fails to effectively dispute the termination. 25",
+        "word count": 87
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Allow an account holder younger than 14 years of age to Page 5 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 26 request to terminate the account. Termination must be effective 27 within 5 business days after such request. 28",
+        "word count": 63
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Allow the confirmed parent or guardian of an account 29 holder younger than 14 years of age to request that the minor's 30 account be terminated. Termination must be effective within 10 31 business days after such request. 32",
+        "word count": 39
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Permanently delete all personal information held by the 33 social media platform relating to the terminated account, unless 34 there are legal requirements to maintain such information. 35",
+        "word count": 28
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "(a) A social media platform shall prohibit a minor who 36 is 14 or 15 years of age from entering into a contract with a 37 social media platform to become an account holder, unless the 38] minor's parent or guardian provides consent for the minor to 39 become an account holder. NS oO (b) A social media platform shall:",
+        "word count": 60
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Terminate any account held by an account holder who is 14 or 15 years of age, including accounts that the social media platform treats or categorizes as belonging to an account holder who is likely 14 or 15 years of age for purposes of targeting content or advertising, if the account holder's parent or guardian has not provided consent for the minor to create or maintain the account. The social media platform shall provide 90 days for an account holder to dispute such termination. NS Termination must be effective upon the expiration of the 90 days NS oO wo foe} ~ oOo on ad Ww ND bh uo if the account holder fails to effectively dispute the Page 6 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 51 termination. 52",
+        "word count": 153
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Allow an account holder who is 14 or 15 years of age to 53} request to terminate the account. Termination must be effective 54 within 5 business days after such request. 55",
+        "word count": 32
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Allow the confirmed parent or guardian of an account 56 holder who is 14 or 15 years of age to request that the minor's 57 account be terminated. Termination must be effective within 10 58 business days after such request. 59",
+        "word count": 41
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Permanently delete all personal information held by the 60 social media platform relating to the terminated account, unless 61 there are legal requirements to maintain such information. 62",
+        "word count": 28
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 501",
+        "text": "If a court enjoins the enforcement of subsection",
+        "word count": 8
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "63} or would otherwise enjoin enforcement of any other provision of 64 this section due to subsection",
+        "word count": 17
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", then subsection",
+        "word count": 3
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "shall be 65 severed, and the following shall come into effect: 66 (a) A social media platform shall prohibit a minor who is 67 14 or 15 years of age from entering into a_ contract with a 68 social media platform to become an account holder. 69 (b) A social media platform shall: 70",
+        "word count": 54
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Terminate any account held by an account holder who is 71 14 or 15 years of age, including accounts that the social media 72 platform treats or categorizes as belonging to an account holder 73 who is likely 14 or 15 years of age for purposes of targeting 74 content or advertising, and provide 90 days for an account 75] holder to dispute such termination. Termination must be Page 7 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 76 effective upon the expiration of 90 days if the account holder 77 fails to effectively dispute the termination. 78",
+        "word count": 121
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Allow an account holder who is 14 or 15 years of age to 79 request to terminate the account. Termination must be effective 80 within 5 business days after such request. 81",
+        "word count": 32
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Allow the confirmed parent or guardian of an account 82 holder who is 14 or 15 years of age to request that the minor's 83 account be terminated. Termination must be effective within 10 84 business days after such request. 85",
+        "word count": 41
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Permanently delete all personal information held by the 86 social media platform relating to the terminated account, unless 87) there are legal requirements to maintain such information. 88",
+        "word count": 28
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "5",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Any knowing or reckless violation of subsection",
+        "word count": 7
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", 89 subsection",
+        "word count": 3
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", or, if in effect, subsection",
+        "word count": 6
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 501",
+        "text": "is deemed an 90 unfair and deceptive trade practice actionable under part II of 91 this chapter solely by the department against a social media 92) platform. If the department has reason to believe that a social 93 media platform is in violation of subsection",
+        "word count": 45
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", subsection 94",
+        "word count": 3
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", or, if in effect, subsection",
+        "word count": 6
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", the department, as the 95 enforcing authority, may bring an action against such platform 96 for an unfair or deceptive act or practice. For the purpose of 97 bringing an action pursuant to this section, ss.",
+        "word count": 37
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "211 and 98",
+        "word count": 3
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "212 do not apply. In addition to other remedies under part 99 II of this chapter, the department may collect a civil penalty 200 of up to $50,000 per violation and reasonable attorney fees and Page 8 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 201 court costs. When the social media platform's failure to comply 202 with subsection",
+        "word count": 82
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", subsection",
+        "word count": 2
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", or, if in effect, 203 subsection",
+        "word count": 7
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 501",
+        "text": "is a consistent pattern of knowing or reckless 204 conduct, punitive damages may be assessed against the social 205] media platform. 206",
+        "word count": 22
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "6",
+        "type": "section",
+        "section": "Section 501",
+        "text": "(a) A social media platform that knowingly or 207 recklessly violates subsection",
+        "word count": 12
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", subsection",
+        "word count": 2
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", or, if in 208 effect, subsection",
+        "word count": 7
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 501",
+        "text": "is liable to the minor account holder, 209 including court costs and reasonable attorney fees as ordered by 210 the court. Claimants may be awarded up to $10,000 in damages. (b) A civil action for a claim under this subsection must be brought within 1 year from the date the complainant knew, or reasonably should have known, of the alleged violation. (c) Any action brought under this subsection may only be brought on behalf of a minor account holder.",
+        "word count": 79
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "7",
+        "type": "section",
+        "section": "Section 501",
+        "text": "For purposes of bringing an action under this section, a_ social media platform that allows a minor account holder MO MO NO NO NB NYO NO NY Cory nD oO FF WwW NY FB ounger than 14 years of age or a minor account holder who is 14 ND io} or 15 years of age to create an account on such platform is 220 considered to be both engaged in substantial and not isolated 221 activities within this state and operating, conducting, engaging 222 in, or carrying on a business and doing business in this state, 223 and is therefore subject to the jurisdiction of the courts of 224 this state. 225",
+        "word count": 112
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "8",
+        "type": "section",
+        "section": "Section 501",
+        "text": "If a social media platform allows an account holder to Page 9 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 226 use the social media platform, the parties have entered into a 227 contract. 228",
+        "word count": 58
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "9",
+        "type": "section",
+        "section": "Section 501",
+        "text": "This section does not preclude any other available 229 remedy at law or equity. 230",
+        "word count": 15
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "10",
+        "type": "section",
+        "section": "Section 501",
+        "text": "(a) If, by its own inquiry or as a result of 231 complaints, the department has reason to believe that _an entity 232 or person has engaged in, or is engaging in, an act or practice 233 that violates this section, the department may administer oaths 234 and _ affirmations, subpoena witnesses or matter, and collect 235 evidence. Within 5 days, excluding weekends and legal holidays, 236 after the service of a subpoena or at any time before the return 237 date specified therein, whichever is longer, the party served 238] may file in the circuit court in the county in which it resides 239] or in which it transacts business and serve upon the enforcing 240 authority a petition for an order modifying or setting aside the 241 subpoena. The petitioner may raise any objection or privilege 242 which would be available upon service of such subpoena ina 243 civil action. The subpoena shall inform the party served of its 244 rights under this subsection. 245 (b) If the matter that the department seeks to obtain by 246 subpoena is located outside the state, the entity or person 247 subpoenaed may make it available to the department or its 248 representative to examine the matter at the place where it is 249 located. The department may designate representatives, including 250 officials of the state in which the matter is located, to Page 10 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 251 inspect the matter on its behalf, and may respond to similar 252 requests from officials of other states. 253 (c) Upon failure of an entity or person without lawful 254 excuse to obey a subpoena and upon reasonable notice to all 255 persons affected, the department may apply to the circuit court 256 for an order compelling compliance. 257 (d) The department may request that an entity or person 258 that refuses to comply with a subpoena on the ground that 259 testimony or matter may incriminate the entity or person be 260 ordered by the court to provide the testimony or matter. Except 261 in _a_ prosecution for perjury, an entity or individual that 262 complies with a court order to provide testimony or matter after 263 asserting a valid privilege against self-incrimination shall not 264 have the testimony or matter so provided, or evidence derived 265 therefrom, received against the entity or person in any criminal 266 investigation or proceeding. 267 (e) Any entity or person upon whom a subpoena is served 268 pursuant to this section shall comply with the terms thereof 269] unless otherwise provided by order of the court. Any entity or 270 person that fails to appear with the intent to avoid, evade, or 271 prevent compliance in whole or in part with any investigation 272 under this part or who removes from any place, conceals, 273 withholds, mutilates, alters, or destroys, or by any other means 274 falsifies any documentary material in the possession, custody, 275 or control of any entity or person subject to any such subpoena, Page 11 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 276 or knowingly conceals any relevant information with the intent 277 to avoid, evade, or prevent compliance shall be liable fora 278 civil penalty of not more than $5,000 per week in violation, 279 reasonable attorney's fees, and costs. 280",
+        "word count": 604
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "11",
+        "type": "section",
+        "section": "Section 501",
+        "text": "The department may adopt rules to implement this 281 section. 282",
+        "word count": 11
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 2",
+        "text": ".",
+        "word count": 1
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": ".1737, Florida Statutes, is created 283 to read: 284",
+        "word count": 9
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "1737 Age verification for online access to materials 285 harmful to minors.— 286",
+        "word count": 13
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1",
+        "type": "section",
+        "section": "Section 501",
+        "text": "As used in this section, the term: 287 (a) “Anonymous age verification\" has the same meaning as 288 ins.",
+        "word count": 19
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1738",
+        "type": "section",
+        "section": "Section 501",
+        "text": "289 (b) \"Commercial entity\" includes a corporation, a limited 290 liability company, a partnership, a limited partnership, a sole 291 proprietorship, and any other legally recognized entity. 292 (c) \"Department\" means the Department of Legal Affairs. 293 (d) \"Distribute\" means to issue, sell, give, provide, 294 deliver, transfer, transmit, circulate, or disseminate by any 295 means. 296 (e) \"Material harmful to minors\" means any material that: 297",
+        "word count": 67
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1",
+        "type": "section",
+        "section": "Section 501",
+        "text": "The average person applying contemporary community 298 standards would find, taken as_a whole, appeals to the prurient 299 interest; 300",
+        "word count": 20
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "Depicts or describes, in a patently offensive way, Page 12 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 301 sexual conduct as specifically defined in s.",
+        "word count": 49
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "19",
+        "type": "section",
+        "section": "Section 501",
+        "text": "; and 302",
+        "word count": 3
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "When taken as a whole, lacks serious literary, 303 artistic, political, or scientific value for minors. 304 (£) \"News-gathering organization\" means any of the 305 following: 306",
+        "word count": 27
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1",
+        "type": "section",
+        "section": "Section 501",
+        "text": "A newspaper, news publication, or news source, printed 307 or published online or on a mobile platform, engaged in 308 reporting current news and matters of public interest, and an 309 employee thereof who can provide documentation of such 310 employment.",
+        "word count": 41
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "A radio broadcast station, television broadcast station, cable television operator, or wire service, and an employee thereof who can provide documentation of such employment. (g) \"Publish\" means to communicate or make information available to another person or entity on a publicly available website or application. WOW WWW WwW WwW WwW Ww Cory nD oO FF WwW NY FB (h) \"Resident\" means a person who lives in this state for Ww io} more than 6 months of the year. Ww ND oO (i) \"Standard age verification\" means any commercially 321 reasonable method of age verification approved by the commercial 322 entity. 323",
+        "word count": 101
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "\"Substantial portion\" means more than",
+        "word count": 5
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "33",
+        "type": "section",
+        "section": "Section 501",
+        "text": "3 percent of 324 total material on a website or application. 325",
+        "word count": 12
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "A commercial entity that knowingly and intentionally Page 13 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 326] publishes or distributes material harmful to minors on a website 327 or application, if the website or application contains a 328 substantial portion of material harmful to minors, must use 329 either anonymous age verification or standard age verification 330 to verify that the age of a person attempting to access the 331 material is 18 years of age or older and prevent access to the 332 material by a person younger than 18 years of age. The 333 commercial entity must offer anonymous age verification and 334 standard age verification, and_a_ person attempting to access the 335] material may select which method will be used to verify his or 336] her age. 337",
+        "word count": 155
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "A commercial entity must ensure that the requirements 338 of s.",
+        "word count": 11
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "1738 are met. 339",
+        "word count": 4
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 501",
+        "text": "(a) This section does not apply to any bona fide news 340 or public interest broadcast, website video, report, or event 341 and does not affect the rights of a news-gathering organization. 342 (b) An Internet service provider or its affiliates or 343 subsidiaries, a search engine, or a cloud service provider does 344 not violate this section solely for providing access or 345 connection to or from a website or other information or content 346 on the Internet or a facility, system, or network not under the 347 provider's control, including transmission, downloading, 348 intermediate storage, or access software, to the extent the 349 provider is not responsible for the creation of the content of 350 the communication which constitutes material harmful to minors. Page 14 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 351",
+        "word count": 159
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "5",
+        "type": "section",
+        "section": "Section 501",
+        "text": "(a) Any violation of subsection",
+        "word count": 5
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "or subsection",
+        "word count": 2
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "352 is deemed an unfair and deceptive trade practice actionable 353 under part II of this chapter solely by the department on behalf 354 of a_ resident minor against a commercial entity. If the 355] department has reason to believe that a commercial entity is in 356 violation of subsection",
+        "word count": 50
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "or subsection",
+        "word count": 2
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", the department, 357 as the enforcing authority, may bring an action against the 358 commercial entity for an unfair or deceptive act or practice. 359 For the purpose of bringing an action pursuant to this section, 360 ss.",
+        "word count": 39
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "211 and",
+        "word count": 2
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "212 do not apply. In addition to any other 361 remedy under part II of this chapter, the department may collect 362 a civil penalty of up to $50,000 per violation and reasonable 363 attorney fees and court costs. When the commercial entity's 364 failure to comply with subsection",
+        "word count": 49
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "or subsection",
+        "word count": 2
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 501",
+        "text": "is a 365 consistent pattern of conduct of the commercial entity, punitive 366 damages may be assessed against the commercial entity. 367 (b) A third party that performs age verification for a 368 commercial entity in violation of s.",
+        "word count": 39
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "1738 is deemed to have 369 committed an unfair and deceptive trade practice actionable 370 under part II of this chapter solely by the department against 371 such third party. If the department has reason to believe that 372 the third party is in violation of s.",
+        "word count": 47
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "1738, the department, 373 as the enforcing authority, may bring an action against such 374 third party for an unfair or deceptive act or practice. For the 375| purpose of bringing an action pursuant to this section, ss. Page 15 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 376",
+        "word count": 72
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "211 and",
+        "word count": 2
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "212 do not apply. In addition to other remedies 377 under part II of this chapter, the department may collect a 378 civil penalty of up to $50,000 per violation and reasonable 379 attorney fees and court costs. 380 (c) A commercial entity that violates subsection",
+        "word count": 46
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "for 381 failing to prohibit access or prohibit a minor from future 382 access to material harmful to minors after a report of 383 unauthorized or unlawful access is liable to the minor for such 384 access, including court costs and reasonable attorney fees as 385 ordered by the court. Claimants may be awarded up to $10,000 in 386 damages. A civil action for a claim under this paragraph must be 387 brought within 1 year from the date the complainant knew, or 388 reasonably should have known, of the alleged violation. 389 (d) Any action under this subsection may only be brought 390 on behalf of or by a resident minor. 391",
+        "word count": 113
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "6",
+        "type": "section",
+        "section": "Section 501",
+        "text": "For purposes of bringing an action under subsection 392",
+        "word count": 9
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "5",
+        "type": "section",
+        "section": "Section 501",
+        "text": ", a commercial entity that publishes or distributes material 393 harmful to minors on a website or application, if the website or 394 application contains a substantial portion of material harmful 395 to minors and such website or application is available to be 396] accessed in this state, is considered to be both engaged in 397 substantial and not isolated activities within this state and 398 operating, conducting, engaging in, or carrying on a business 399 and doing business in this state, and is therefore subject to 400 the jurisdiction of the courts of this state. Page 16 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature O1",
+        "word count": 130
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "7",
+        "type": "section",
+        "section": "Section 501",
+        "text": "This section does not preclude any other available 02 remedy at law or equity. 03",
+        "word count": 15
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "8",
+        "type": "section",
+        "section": "Section 501",
+        "text": "(a) If, by its own inquiry or as a result of 04 complaints, the department has reason to believe that an entity 05 or person has engaged in, or is engaging in, an act or practice 06 that violates this section, the department may administer oaths 07 and affirmations, subpoena witnesses or matter, and collect 08 evidence. Within 5 days, excluding weekends and legal holidays, 09 after the service of a_ subpoena or at_any time before the return 0 date specified therein, whichever is longer, the party served 1) may file in the circuit court in the county in which it resides 2 or in which it transacts business and serve upon the enforcing 3 authority a petition for an order modifying or setting aside the 4 subpoena. The petitioner may raise any objection or privilege 5 which would be available upon service of such subpoena ina 6 civil action. The subpoena shall inform the party served of its 7 rights under this subsection. 8 (b) If the matter that the department seeks to obtain b 9 subpoena is located outside the state, the entity or person 20 subpoenaed may make it available to the department or its 21 representative to examine the matter at the place where it is 22 located. The department may designate representatives, including 23] officials of the state in which the matter is located, to 24 inspect the matter on its behalf, and may respond to similar 25 requests from officials of other states. Page 17 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 26 (c) Upon failure of an entity or person without lawful 27 excuse to obey a subpoena and upon reasonable notice to all 28 persons affected, the department may apply to the circuit court 29 for an order compelling compliance. 30 (d) The department may request that an entity or person 31 that _ refuses to comply with a subpoena on the ground that 32 testimony or matter may incriminate the entity or person be 33 ordered by the court to provide the testimony or matter. Except 34 in _a_ prosecution for perjury, an entity or individual that 35 complies with a court order to provide testimony or matter after 36 asserting a valid privilege against self-incrimination shall not 37 have the testimony or matter so provided, or evidence derived 38 therefrom, received against the entity or person in any criminal 39 investigation or proceeding. NS oO (e) Any entity or person upon whom a subpoena is served pursuant to this section shall comply with the terms thereof unless otherwise provided by order of the court. Any entity or person that fails to appear with the intent to avoid, evade, or prevent compliance in whole or in part with any investigation under this part or that removes from any place, conceals, withholds, mutilates, alters, or destroys, or by any other means falsifies any documentary material in the possession, custody, or control of any entity or person subject to any such subpoena, NS or knowingly conceals any relevant information with the intent NS oO wo foe} ~ oOo on ad Ww ND bh uo to avoid, evade, or prevent compliance, shall be liable for a Page 18 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 51 civil penalty of not more than $5,000 per week in violation, 52 reasonable attorney's fees, and costs. 53",
+        "word count": 608
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "9",
+        "type": "section",
+        "section": "Section 501",
+        "text": "The department may adopt rules to implement this 54 section. 55",
+        "word count": 11
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "3",
+        "type": "section",
+        "section": "Section 3",
+        "text": ".",
+        "word count": 1
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": ".1738, Florida Statutes, is created 56 to read: 57",
+        "word count": 9
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "501",
+        "type": "section",
+        "section": "Section 501",
+        "text": "1738 Anonymous age verification.— 58",
+        "word count": 5
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "1",
+        "type": "section",
+        "section": "Section 501",
+        "text": "As used in this section, the term \"anonymous age 59 verification\" means a commercially reasonable method used by a 60 government agency or a business for the purpose of age 61 verification which is conducted by a nongovernmental, 62 independent third party organized under the laws of a state of 63 the United States which: 64 (a) Has its principal place of business in a state of the 65 United States; and 66 (b) Is not owned or controlled by a company formed ina 67 foreign country, a government of a foreign country, or any other 68 entity formed in a foreign countr 69",
+        "word count": 104
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2",
+        "type": "section",
+        "section": "Section 501",
+        "text": "A third party conducting anonymous age verification 70 pursuant to this section: 71 (a) May not retain personal identifying information used 72 to verify age once the age of an account holder or a person 73 seeking an account has been verified. 74 (b) May not use personal identifying information used to 75 verify age for any other purpose. Page 19 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er FbLORIODA HO US E O F R EP RES EN TA TIVE S ENROLLED CSICS/HB3, Engrossed 1 2024 Legislature 76 (c) Must keep anonymous any personal identifying 77 information used to verify age. Such information may not be 78 shared or otherwise communicated to any person. 79 (d) Must protect personal identifying information used to 80} verify age from unauthorized or illegal access, destruction, 81 use, modification, or disclosure through reasonable security 82 procedures and practices appropriate to the nature of the 83 personal information. 84",
+        "word count": 159
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "4",
+        "type": "section",
+        "section": "Section 4",
+        "text": ". If any provision of this act or its application 85} to any person or circumstances is held invalid, the invalidity 86 does not affect other provisions or applications of this act 87 which can be given effect without the invalid provision or 88 application, and to this end the provisions of this act are 89 severable. 90",
+        "word count": 58
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "5",
+        "type": "section",
+        "section": "Section 5",
+        "text": ". This act shall take effect January 1,",
+        "word count": 8
+    },
+    {
+        "kb": "The_Florida_Senate",
+        "article number": "2025",
+        "type": "section",
+        "section": "Section 5",
+        "text": "Page 20 of 20 CODING: Words sticken are deletions; words underlined are additions. hb0003-04-er",
+        "word count": 14
+    }
+]

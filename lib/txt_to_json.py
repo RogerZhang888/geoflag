@@ -1,31 +1,27 @@
 import os
 import json
-import pytesseract
-from pdf2image import convert_from_path
 import re
 
-def pdf_to_json(laws_pdf_file, laws_json_file, pdf_title):
+def txt_to_json(laws_txt_file, laws_json_file, pdf_title):
     """
-    Convert a PDF of laws into structured JSON using OCR (Tesseract).
+    Convert a TXT file of laws into structured JSON.
     """
-    # Step 1: Convert PDF pages into images
-    pages = convert_from_path(laws_pdf_file)
+    # Step 1: Read text file
+    if not os.path.exists(laws_txt_file):
+        raise FileNotFoundError(f"{laws_txt_file} not found")
     
-    # Step 2: Extract text from each page
-    full_text = ""
-    for page in pages:
-        text = pytesseract.image_to_string(page)
-        full_text += text + "\n"
+    with open(laws_txt_file, "r", encoding="utf-8") as f:
+        full_text = f.read()
     
-    # Step 3: Clean text (normalize spaces, remove weird line breaks)
+    # Step 2: Clean text (normalize spaces, remove weird line breaks)
     cleaned_text = re.sub(r'\s+', ' ', full_text).strip()
     
-    # Step 4: Split into sections/articles
+    # Step 3: Split into sections/articles
     # Split on SECTION, Section, or numbered points (like (1), (11), 1.)
     pattern = r'(SECTION\s+\d+|Section\s+\d+|\(\d+\)|\d+\.)'
     chunks = re.split(f'({pattern})', cleaned_text)
     
-    # Step 5: Build structured JSON
+    # Step 4: Build structured JSON
     entries = []
     current_section = None
     article_number = None
@@ -55,15 +51,16 @@ def pdf_to_json(laws_pdf_file, laws_json_file, pdf_title):
             }
             entries.append(entry)
     
-    # Step 6: Save JSON
+    # Step 5: Save JSON
+    os.makedirs(os.path.dirname(laws_json_file), exist_ok=True)
     with open(laws_json_file, "w", encoding="utf-8") as f:
         json.dump(entries, f, indent=4, ensure_ascii=False)
     
     print(f"✅ Extracted {len(entries)} entries and saved to {laws_json_file}")
     return entries
 
-laws_pdf_file = "laws_pdf_file/Utah_Social_Media_Regulation_Act.pdf"
-laws_json_file = "laws_json_file/Utah_Social_Media_Regulation_Act.json"
+# Example usage
+laws_txt_file = "laws_pdf_file/Reporting_requirements_of_providers.txt"
+laws_json_file = "laws_json_file/Reporting_requirements_of_providers.json"
 
-pdf_to_json(laws_pdf_file, laws_json_file, "Utah_Social_Media_Regulation_Act")
-
+txt_to_json(laws_txt_file, laws_json_file, "Reporting_requirements_of_providers")
