@@ -4,7 +4,7 @@ import { columns } from "@/components/Columns";
 import { COORDS } from "@/lib/openstreetmap/simplified/coords";
 import { MOCK_DATA } from "@/lib/mock/data";
 import { FeaturesTable } from "@/components/FeaturesTable";
-import { Button } from "@/components/ui/Button";
+import { Button, buttonVariants } from "@/components/ui/Button";
 import {
   Card,
   CardContent,
@@ -16,13 +16,20 @@ import { MOCK_FEATURE_DATA } from "@/lib/mock";
 import { Loader2, Plus } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
+import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 const Polygon = dynamic(
   () => import("react-leaflet").then((mod) => mod.Polygon),
   { ssr: false }
 );
+const Tooltip = dynamic(
+  () => import("react-leaflet").then((mod) => mod.Tooltip),
+  { ssr: false }
+);
+
 export default function Home() {
-  const position = [1.3521, 103.8198];
+   const position = [52.28053, -43.56581];
 
   const Map = useMemo(
     () =>
@@ -38,43 +45,48 @@ export default function Home() {
     return data.flatMap((reg, idx) => {
       const allPolygons = [];
 
-      // Handle compliant regions
-      if (reg.regionsCompliant && reg.regionsCompliant.length > 0) {
+      const addPolygonWithTooltip = (coords, color, label, keyPrefix) => {
+        allPolygons.push(
+          <Polygon
+            key={keyPrefix}
+            positions={coords} // [lat, lon] array
+            pathOptions={{ color, weight: 1.5 }}
+          >
+            {/* Tooltip in the middle of the polygon */}
+            <Tooltip sticky>{label}</Tooltip>
+          </Polygon>
+        );
+      };
+
+      // Compliant regions
+      if (reg.regionsCompliant?.length > 0) {
         reg.regionsCompliant.forEach((regionName, regionIdx) => {
           const polygons = COORDS[regionName];
           if (!polygons) return;
 
           polygons.forEach((coords, polyIdx) => {
-            allPolygons.push(
-              <Polygon
-                key={`polygon-${idx}-compliant-${regionIdx}-${polyIdx}`}
-                positions={coords} // [lat, lon]
-                pathOptions={{
-                  color: "#2fba16",
-                  weight: 1.5
-                }}
-              />
+            addPolygonWithTooltip(
+              coords,
+              "#2fba16",
+              regionName, // text in tooltip
+              `polygon-${idx}-compliant-${regionIdx}-${polyIdx}`
             );
           });
         });
       }
 
-      // Handle non-compliant regions
-      if (reg.regionsNotCompliant && reg.regionsNotCompliant.length > 0) {
+      // Non-compliant regions
+      if (reg.regionsNotCompliant?.length > 0) {
         reg.regionsNotCompliant.forEach((regionName, regionIdx) => {
           const polygons = COORDS[regionName];
           if (!polygons) return;
 
           polygons.forEach((coords, polyIdx) => {
-            allPolygons.push(
-              <Polygon
-                key={`polygon-${idx}-noncompliant-${regionIdx}-${polyIdx}`}
-                positions={coords} // [lat, lon]
-                pathOptions={{
-                  color: "#b91919",
-                  weight: 1.5
-                }}
-              />
+            addPolygonWithTooltip(
+              coords,
+              "#b91919",
+              regionName, // text in tooltip
+              `polygon-${idx}-noncompliant-${regionIdx}-${polyIdx}`
             );
           });
         });
@@ -108,7 +120,7 @@ export default function Home() {
             <Map
               className="w-full h-[400px] md:h-[600px] z-10 rounded"
               position={position}
-              zoom={12}
+              zoom={3}
             >
               {generatePolygons(MOCK_DATA)}
             </Map>
@@ -118,9 +130,17 @@ export default function Home() {
       <div className="px-6 sm:px-16 max-w-screen-xl mx-auto size-full flex flex-col gap-4">
         <span className="flex gap-2 items-center justify-between size-full">
           <h2 className="font-bold text-xl">Features</h2>
-          <Button variant="default" size="lg">
+          <Link
+            variant="default"
+            size="lg"
+            href="/newFeature"
+            className={cn(
+              buttonVariants({ variant: "default", size: "lg" }),
+              "w-fit"
+            )}
+          >
             <Plus /> Add New Feature
-          </Button>
+          </Link>
         </span>
 
         <FeaturesTable columns={columns} data={MOCK_FEATURE_DATA} />
