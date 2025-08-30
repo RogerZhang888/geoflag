@@ -124,3 +124,6 @@ def pdf_to_json(pdf_file: str, json_file: str, doc_title: str, min_words: int = 
 
 
 pdf_to_json("laws_pdf_file/California_state_law.pdf", "laws_json_file/California_state_law.json", "California_state_law", min_words=2)
+pdf_to_json("laws_pdf_file/EU_Digital_Service_Act.pdf", "laws_json_file/EU_Digital_Service_Act.json", "EU_Digital_Service", min_words=2)
+pdf_to_json("laws_pdf_file/The_Florida_Senate.pdf", "laws_json_file/The_Florida_Senate.json", "The_Florida_Senate", min_words=2)
+pdf_to_json("laws_pdf_file/Utah_Social_Media_Regulation_Act.pdf", "laws_json_file/Utah_Social_Media_Regulation_Act.json", "Utah_Social_Media_Regulation_Act", min_words=2)

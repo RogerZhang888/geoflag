@@ -1,674 +1,1080 @@
 [
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": null,
-        "type": "article",
-        "section": null,
-        "text": "Utah Code Effective 5/3/2023 Chapter 63 Utah Social Media Regulation Act Part 1 General Requirements 13-63-101 Definitions. As used in this chapter:",
-        "word count": 22
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "\"Account holder\" means a person who has, or opens, an account or profile to use a social media company's platform.",
-        "word count": 20
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "\"Addiction\" means use of a social media platform that: (a) indicates the user's substantial preoccupation or obsession with, or the user's substantial difficulty to cease or reduce use of, the social media platform; and (b) causes physical, mental, emotional, developmental, or material harms to the user.",
-        "word count": 46
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "\"Director\" means the director of the Division of Consumer Protection created in",
-        "word count": 12
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "13",
-        "type": "section",
-        "section": "Section 13",
-        "text": "-2-",
-        "word count": 1
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "4",
+        "type": "Section 13",
         "text": "\"Division\" means the Division of Consumer Protection created in",
-        "word count": 9
+        "word_count": 9
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "13",
-        "type": "section",
-        "section": "Section 13",
-        "text": "-2-",
-        "word count": 1
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "5",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "5",
+        "type": "Section 13",
         "text": "\"Educational entity\" means a public school, an LEA, a charter school, the Utah Schools for the Deaf and Blind, a private school, a denominational school, a parochial school, a community college, a state college, a state university, or a nonprofit private postsecondary educational institution.",
-        "word count": 44
+        "word_count": 44
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "6",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(a) \"Interactive computer service\" means an information service, information system, or information access software provider that: (i) provides or enables computer access by multiple users to a computer server; and (ii) provides access to the Internet. (b) \"Interactive computer service\" includes: (i) a web service; (ii) a web system; (iii) a website; (iv) a web application; or (v) a web portal.",
-        "word count": 61
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "\"Interactive computer service\" means an information service, information system, or information access software provider that:",
+        "word_count": 15
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "7",
-        "type": "section",
-        "section": "Section 13",
-        "text": "\"Minor\" means an individual who is under the age of 18 and: (a) has not been emancipated as that term is defined in",
-        "word count": 23
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "provides or enables computer access by multiple users to a computer server; and",
+        "word_count": 13
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "80",
-        "type": "section",
-        "section": "Section 80",
-        "text": "-7-102; or (b) has not been married.",
-        "word count": 7
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "provides access to the Internet.",
+        "word_count": 5
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "8",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "\"Interactive computer service\" includes:",
+        "word_count": 4
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "a web service;",
+        "word_count": 3
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "a web system;",
+        "word_count": 3
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "iii",
+        "type": "Section 13",
+        "text": "a website;",
+        "word_count": 2
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "iv",
+        "type": "Section 13",
+        "text": "a web application; or",
+        "word_count": 4
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "v",
+        "type": "Section 13",
+        "text": "a web portal.",
+        "word_count": 3
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "7",
+        "type": "Section 13",
+        "text": "\"Minor\" means an individual who is under the age of 18 and:",
+        "word_count": 12
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "has not been emancipated as that term is defined in",
+        "word_count": 10
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "b",
+        "type": "Section 80",
+        "text": "has not been married.",
+        "word_count": 4
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "8",
+        "type": "Section 80",
         "text": "\"Post\" means content that an account holder makes available on a social media platform for other account holders or users to view.",
-        "word count": 22
+        "word_count": 22
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "9",
-        "type": "section",
-        "section": "Section 80",
-        "text": "\"Social media company\" means a person or entity that: (a) provides a social media platform that has at least 5,000,000 account holders worldwide; and (b) is an interactive computer service.",
-        "word count": 30
+        "article_number": "9",
+        "type": "Section 80",
+        "text": "\"Social media company\" means a person or entity that:",
+        "word_count": 9
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "10",
-        "type": "section",
-        "section": "Section 80",
-        "text": "(a) \"Social media platform\" means an online forum that a social media company makes available for an account holder to: (i) create a profile; (ii) upload posts; (iii) view the posts of other account holders; and (iv) interact with other account holders or users. Page 1 Utah Code (b) \"Social media platform\" does not include an online service, website, or application: (i) where the predominant or exclusive function is: (A) electronic mail; (B) direct messaging consisting of text, photos, or videos that are sent between devices by electronic means, where messages are: (I) shared between the sender and the recipient; (II) only visible to the sender and the recipient; and (II) are not posted publicly; (C) a streaming service that: (I) provides only licensed media in a continuous flow from the service, website, or application to the end user; and (II) does not obtain a license to the media from a user or account holder by agreement to its terms of service; (D) news, sports, entertainment, or other content that is preselected by the provider and not user generated, and any chat, comment, or interactive functionality that is provided incidental to, directly related to, or dependent upon provision of the content; (E) online shopping or e-commerce, if the interaction with other users or account holders is generally limited to: (I) the ability to upload a post and comment on reviews; (Il) the ability to display lists or collections of goods for sale or wish lists; and (Ill) other functions that are focused on online shopping or e-commerce rather than interaction between users or account holders; (F) interactive gaming, virtual gaming, or an online service, that allows the creation and uploading of content for the purpose of interactive gaming, edutainment, or associated entertainment, and the communication related to that content; (G) photo editing that has an associated photo hosting service, if the interaction with other users or account holders is generally limited to liking or commenting; (H) a professional creative network for showcasing and discovering artistic content, if the content is required to be non-pornographic; (I) single-purpose community groups for public safety if: (I) the interaction with other users or account holders is generally limited to that single purpose; and (II) the community group has guidelines or policies against illegal content; (J) providing career development opportunities, including professional networking, job skills, learning certifications, and job posting and application services; (K) business to business software; (L) a teleconferencing or videoconferencing service that allows reception and transmission of audio and video signals for real time communication; (M) cloud storage; (N) shared document collaboration; (O) cloud computing services, which may include cloud storage and shared document collaboration; (P) providing access to or interacting with data visualization platforms, libraries, or hubs; (Q) to permit comments on a digital news website, if the news content is posted only by the provider of the digital news website; (R) providing or obtaining technical support for a platform, product, or service; (S) academic or scholarly research; or (T) genealogical research; or Page 2 Utah Code (ii) where: (A) the majority of the content that is posted or created is posted or created by the provider of the online service, website, or application; and (B) the ability to chat, comment, or interact with other users is directly related to the provider's content; (iii) that is a classified ad service that only permits the sale of goods and prohibits the solicitation of personal services; or (iv) that is used by and under the direction of an educational entity, including: (A) a learning management system; (B) a student engagement program; and (C) a subject or skill-specific program.",
-        "word count": 605
+        "article_number": "a",
+        "type": "Section 80",
+        "text": "provides a social media platform that has at least 5,000,000 account holders worldwide; and",
+        "word_count": 16
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "11",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "b",
+        "type": "Section 80",
+        "text": "is an interactive computer service.",
+        "word_count": 5
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "a",
+        "type": "Section 80",
+        "text": "\"Social media platform\" means an online forum that a social media company makes available for an account holder to:",
+        "word_count": 19
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 80",
+        "text": "create a profile;",
+        "word_count": 3
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 80",
+        "text": "upload posts;",
+        "word_count": 2
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "iii",
+        "type": "Section 80",
+        "text": "view the posts of other account holders; and",
+        "word_count": 8
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "iv",
+        "type": "Section 80",
+        "text": "interact with other account holders or users. Page 1 Utah Code",
+        "word_count": 11
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "b",
+        "type": "Section 80",
+        "text": "\"Social media platform\" does not include an online service, website, or application:",
+        "word_count": 12
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 80",
+        "text": "where the predominant or exclusive function is: (A) electronic mail; (B) direct messaging consisting of text, photos, or videos that are sent between devices by electronic means, where messages are: (I) shared between the sender and the recipient; (II) only visible to the sender and the recipient; and (II) are not posted publicly; (C) a streaming service that: (I) provides only licensed media in a continuous flow from the service, website, or application to the end user; and (II) does not obtain a license to the media from a user or account holder by agreement to its terms of service; (D) news, sports, entertainment, or other content that is preselected by the provider and not user generated, and any chat, comment, or interactive functionality that is provided incidental to, directly related to, or dependent upon provision of the content; (E) online shopping or e-commerce, if the interaction with other users or account holders is generally limited to: (I) the ability to upload a post and comment on reviews; (Il) the ability to display lists or collections of goods for sale or wish lists; and (Ill) other functions that are focused on online shopping or e-commerce rather than interaction between users or account holders; (F) interactive gaming, virtual gaming, or an online service, that allows the creation and uploading of content for the purpose of interactive gaming, edutainment, or associated entertainment, and the communication related to that content; (G) photo editing that has an associated photo hosting service, if the interaction with other users or account holders is generally limited to liking or commenting; (H) a professional creative network for showcasing and discovering artistic content, if the content is required to be non-pornographic; (I) single-purpose community groups for public safety if: (I) the interaction with other users or account holders is generally limited to that single purpose; and (II) the community group has guidelines or policies against illegal content; (J) providing career development opportunities, including professional networking, job skills, learning certifications, and job posting and application services; (K) business to business software; (L) a teleconferencing or videoconferencing service that allows reception and transmission of audio and video signals for real time communication; (M) cloud storage; (N) shared document collaboration; (O) cloud computing services, which may include cloud storage and shared document collaboration; (P) providing access to or interacting with data visualization platforms, libraries, or hubs; (Q) to permit comments on a digital news website, if the news content is posted only by the provider of the digital news website; (R) providing or obtaining technical support for a platform, product, or service; (S) academic or scholarly research; or (T) genealogical research; or Page 2 Utah Code",
+        "word_count": 444
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 80",
+        "text": "where: (A) the majority of the content that is posted or created is posted or created by the provider of the online service, website, or application; and (B) the ability to chat, comment, or interact with other users is directly related to the provider's content;",
+        "word_count": 46
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "iii",
+        "type": "Section 80",
+        "text": "that is a classified ad service that only permits the sale of goods and prohibits the solicitation of personal services; or",
+        "word_count": 21
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "iv",
+        "type": "Section 80",
+        "text": "that is used by and under the direction of an educational entity, including: (A) a learning management system; (B) a student engagement program; and (C) a subject or skill-specific program.",
+        "word_count": 30
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "11",
+        "type": "Section 80",
         "text": "\"User\" means a person who has access to view all, or some of, the posts on a social media platform, but is not an account holder.",
-        "word count": 26
+        "word_count": 26
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "12",
-        "type": "section",
-        "section": "Section 80",
-        "text": "(a) \"Utah account holder\" means a person who is a Utah resident and an account holder. (b) \"Utah account holder\" includes a Utah minor account holder.",
-        "word count": 26
+        "article_number": "a",
+        "type": "Section 80",
+        "text": "\"Utah account holder\" means a person who is a Utah resident and an account holder.",
+        "word_count": 15
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "13",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "b",
+        "type": "Section 80",
+        "text": "\"Utah account holder\" includes a Utah minor account holder.",
+        "word_count": 9
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "13",
+        "type": "Section 80",
         "text": "\"Utah minor account holder\" means a Utah account holder who is a minor.",
-        "word count": 13
+        "word_count": 13
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "14",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "14",
+        "type": "Section 80",
         "text": "\"Utah resident\" means an individual who currently resides in Utah. Enacted by Chapter 477, 2023 General Session Enacted by Chapter 498, 2023 General Session 13-63-102 Age requirements for use of social media platform -- Parental consent -- Rulemaking authority of division.",
-        "word count": 41
+        "word_count": 39
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "1",
+        "type": "Section 80",
         "text": "Beginning March 1, 2024, a social media company may not permit a Utah resident who is a minor to be an account holder on the social media company's social media platform unless the Utah resident has the express consent of a parent or guardian.",
-        "word count": 44
+        "word_count": 45
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "2",
+        "type": "Section 80",
         "text": "Notwithstanding any provision of this chapter, a social media company may not permit a Utah resident who is a minor to hold or open an account on a social media platform if the minor is ineligible to hold or open an account under any other provision of state or federal law.",
-        "word count": 51
+        "word_count": 51
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 80",
-        "text": "(a) Beginning March 1, 2024, a social media company shall verify the age of an existing or new Utah account holder and, if the existing or new account holder is a minor, confirm that a minor has consent as required under Subsection",
-        "word count": 42
+        "article_number": "a",
+        "type": "Section 80",
+        "text": "Beginning March 1, 2024, a social media company shall verify the age of an existing or new Utah account holder and, if the existing or new account holder is a minor, confirm that a minor has consent as required under Subsection (1):",
+        "word_count": 42
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 80",
-        "text": ": (i) for a new account, at the time the Utah resident opens the account; or (ii) for a Utah account holder who has not provided age verification as required under this section, within 14 calendar days of the Utah account holder's attempt to access the account. (b) If a Utah account holder fails to meet the verification requirements of this section within the required time period, the social media company shall deny access to the account: (i) upon the expiration of the time period; and (ii) until all verification requirements are met.",
-        "word count": 93
+        "article_number": "i",
+        "type": "Section 80",
+        "text": "for a new account, at the time the Utah resident opens the account; or",
+        "word_count": 14
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 80",
-        "text": "In accordance with Title 683G, Chapter 3, Utah Administrative Rulemaking Act, the division, with consideration of stakeholder input, shall make rules to: (a) establish processes or means by which a social media company may meet the age verification requirements of this chapter; (b) establish acceptable forms or methods of identification, which may not be limited to a valid identification card issued by a government entity; Page 3 Utah Code (c) establish requirements for providing confirmation of the receipt of any information provided by a person seeking to verify age under this chapter; (d) establish processes or means to confirm that a parent or guardian has provided consent for the minor to open or use an account as required under this section; (e) establish requirements for retaining, protecting, and securely disposing of any information obtained by a social media company or its agent as a result of compliance with the requirements of this chapter; (f) require that information obtained by a social media company or its agent in order to comply with the requirements of this chapter are only retained for the purpose of compliance and may not be used for any other purpose; (g) if the division permits an agent to process verification requirements required by this section, require that the agent have its principal place of business in the United States of America; (h) require other applicable state agencies to comply with any rules promulgated under the authority of this section; and (i) ensure that the rules are consistent with state and federal law, including Title 138, Chapter 61, Utah Consumer Privacy Act. Enacted by Chapter 498, 2023 General Session 13-63-103 Prohibition on data collection for certain accounts -- Prohibition on advertising -- Use of information -- Search results -- Directed content. Beginning March 1, 2024, a social media company, for a social media platform account held by a Utah minor account holder:",
-        "word count": 314
+        "article_number": "ii",
+        "type": "Section 80",
+        "text": "for a Utah account holder who has not provided age verification as required under this section, within 14 calendar days of the Utah account holder's attempt to access the account.",
+        "word_count": 31
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "b",
+        "type": "Section 80",
+        "text": "If a Utah account holder fails to meet the verification requirements of this section within the required time period, the social media company shall deny access to the account:",
+        "word_count": 29
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 80",
+        "text": "upon the expiration of the time period; and",
+        "word_count": 8
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 80",
+        "text": "until all verification requirements are met.",
+        "word_count": 6
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "4",
+        "type": "Section 80",
+        "text": "In accordance with Title 683G, Chapter 3, Utah Administrative Rulemaking Act, the division, with consideration of stakeholder input, shall make rules to:",
+        "word_count": 22
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "a",
+        "type": "Section 80",
+        "text": "establish processes or means by which a social media company may meet the age verification requirements of this chapter;",
+        "word_count": 19
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "b",
+        "type": "Section 80",
+        "text": "establish acceptable forms or methods of identification, which may not be limited to a valid identification card issued by a government entity; Page 3 Utah Code",
+        "word_count": 26
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "c",
+        "type": "Section 80",
+        "text": "establish requirements for providing confirmation of the receipt of any information provided by a person seeking to verify age under this chapter;",
+        "word_count": 22
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "d",
+        "type": "Section 80",
+        "text": "establish processes or means to confirm that a parent or guardian has provided consent for the minor to open or use an account as required under this section;",
+        "word_count": 28
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "e",
+        "type": "Section 80",
+        "text": "establish requirements for retaining, protecting, and securely disposing of any information obtained by a social media company or its agent as a result of compliance with the requirements of this chapter;",
+        "word_count": 31
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "f",
+        "type": "Section 80",
+        "text": "require that information obtained by a social media company or its agent in order to comply with the requirements of this chapter are only retained for the purpose of compliance and may not be used for any other purpose;",
+        "word_count": 39
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "g",
+        "type": "Section 80",
+        "text": "if the division permits an agent to process verification requirements required by this section, require that the agent have its principal place of business in the United States of America;",
+        "word_count": 30
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "h",
+        "type": "Section 80",
+        "text": "require other applicable state agencies to comply with any rules promulgated under the authority of this section; and",
+        "word_count": 18
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 80",
+        "text": "ensure that the rules are consistent with state and federal law, including Title 138, Chapter 61, Utah Consumer Privacy Act. Enacted by Chapter 498, 2023 General Session 13-63-103 Prohibition on data collection for certain accounts -- Prohibition on advertising -- Use of information -- Search results -- Directed content. Beginning March 1, 2024, a social media company, for a social media platform account held by a Utah minor account holder:",
+        "word_count": 66
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "1",
+        "type": "Section 80",
         "text": "shall prohibit direct messaging between the account and any other user that is not linked to the account through friending;",
-        "word count": 20
+        "word_count": 20
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "2",
+        "type": "Section 80",
         "text": "may not show the account in search results for any user that is not linked to the account through friending;",
-        "word count": 20
+        "word_count": 20
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "3",
+        "type": "Section 80",
         "text": "shall prohibit the display of any advertising in the account;",
-        "word count": 10
+        "word_count": 10
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "4",
+        "type": "Section 80",
         "text": "shall not collect or use any personal information from the posts, content, messages, text, or usage activities of the account other than information that is necessary to comply with, and to verify compliance with, state or federal law, which information includes a parent or guardian's name, a birth date, and any other information required to be submitted under this section; and",
-        "word count": 61
+        "word_count": 62
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "5",
-        "type": "section",
-        "section": "Section 80",
+        "article_number": "5",
+        "type": "Section 80",
         "text": "shall prohibit the use of targeted or suggested groups, services, products, posts, accounts, or users in the account. Enacted by Chapter 498, 2023 General Session 13-63-104 Parental access to social media account. Beginning March 1, 2024, a social media company shall provide a parent or guardian who has given parental consent for a Utah minor account holder under",
-        "word count": 58
+        "word_count": 58
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "13",
-        "type": "section",
-        "section": "Section 13",
-        "text": "-63-102 with a password or other means for the parent or guardian to access the account, which shall allow the parent or guardian to view:",
-        "word count": 25
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "1",
+        "type": "Section 13",
         "text": "all posts the Utah minor account holder makes under the social media platform account; and",
-        "word count": 15
+        "word_count": 15
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "2",
+        "type": "Section 13",
         "text": "all responses and messages sent to or by the Utah minor account holder in the social media platform account. Enacted by Chapter 498, 2023 General Session Page 4 Utah Code 13-63-105 Limited hours of access for minors -- Parental access and options.",
-        "word count": 42
+        "word_count": 41
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "1",
+        "type": "Section 13",
         "text": "Beginning March 1, 2024, a social media company shall prohibit a Utah minor account holder from having access to the Utah minor account holder's account during the hours of 10:30 p.m. to 6:30 a.m., unless the access is modified according to another requirement of this section.",
-        "word count": 46
+        "word_count": 51
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "2",
+        "type": "Section 13",
         "text": "Time of day under this section shall be calculated based on the Internet protocol address being used by the Utah minor account holder at the time of attempting access.",
-        "word count": 29
+        "word_count": 29
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "3",
+        "type": "Section 13",
         "text": "A social media company shall provide options for a parent or guardian with access to an account under",
-        "word count": 18
+        "word_count": 18
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "13",
-        "type": "section",
-        "section": "Section 13",
-        "text": "-63-104 to: (a) change or eliminate the time-of-day restriction described in Subsection",
-        "word count": 12
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "change or eliminate the time-of-day restriction described in Subsection (1); and",
+        "word_count": 11
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 13",
-        "text": "; and (b) set a limit on the number of hours per day that a Utah minor account holder may use the account.",
-        "word count": 23
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "set a limit on the number of hours per day that a Utah minor account holder may use the account.",
+        "word_count": 20
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "4",
+        "type": "Section 13",
         "text": "A social media company shall not permit a Utah minor account holder to change or bypass restrictions on access as required by this section.",
-        "word count": 24
+        "word_count": 24
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "5",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "5",
+        "type": "Section 13",
         "text": "Notwithstanding any provision of this section, a social media company shall permit a parent or guardian with access to an account under",
-        "word count": 22
+        "word_count": 22
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "13",
-        "type": "section",
-        "section": "Section 13",
-        "text": "-63-104 to access the account without time restrictions. Enacted by Chapter 498, 2023 General Session Part 2 Enforcement of General Requirements by Division 13-63-201 Investigative powers of the division.",
-        "word count": 29
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "1",
+        "type": "Section 13",
         "text": "The division shall receive consumer complaints alleging a violation of Part 1, General Requirements.",
-        "word count": 14
+        "word_count": 14
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "2",
+        "type": "Section 13",
         "text": "A person may file a consumer complaint that alleges a violation under Part 1, General Requirements, with the division.",
-        "word count": 19
+        "word_count": 19
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "3",
+        "type": "Section 13",
         "text": "The division shall investigate a consumer complaint to determine whether a violation of Part 1, General Requirements, occurred. Enacted by Chapter 498, 2023 General Session 13-63-202 Enforcement powers of the division.",
-        "word count": 31
+        "word_count": 31
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "1",
+        "type": "Section 13",
         "text": "Except for a private right of action under",
-        "word count": 8
+        "word_count": 8
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "13",
-        "type": "section",
-        "section": "Section 13",
-        "text": "-63-301, the division has the exclusive authority to administer and enforce the requirements of Part 1, General Requirements.",
-        "word count": 18
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "2",
+        "type": "Section 13",
         "text": "The attorney general, upon request, shall give legal advice to, and act as counsel for, the division in the exercise of the division's responsibilities under this part.",
-        "word count": 27
+        "word_count": 28
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(a) Subject to the ability to cure an alleged violation under Subsection",
-        "word count": 12
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "Subject to the ability to cure an alleged violation under Subsection (4):",
+        "word_count": 12
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
-        "text": ": (i) the division director may impose an administrative fine of up to $2,500 for each violation of Part 1, General Requirements; and (ii) the division may bring an action in a court of competent jurisdiction to enforce a provision of Part 1, General Requirements. (b) In a court action by the division to enforce a provision of Part 1, General Requirements, the court may: (i) declare that the act or practice violates a provision of Part 1, General Requirements; Page 5 Utah Code (ii) issue an injunction for a violation of Part 1, General Requirements; (iii) order disgorgement of any money received in violation of Part 1, General Requirements; (iv) order payment of disgorged money to an injured purchaser or consumer; (v) impose a civil penalty of up to $2,500 for each violation of Part 1, General Requirements; (vi) award actual damages to an injured purchaser or consumer; and (vii) award any other relief that the court deems reasonable and necessary.",
-        "word count": 162
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "the division director may impose an administrative fine of up to $2,500 for each violation of Part 1, General Requirements; and",
+        "word_count": 22
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(a) At least 30 days before the day on which the division initiates an enforcement action against a person that is subject to the requirements of Part 1, General Requirements, the division shall provide the person with: (i) written notice that identifies each alleged violation; and (ii) an explanation of the basis for each allegation. (b) Except as provided under Subsection",
-        "word count": 61
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "the division may bring an action in a court of competent jurisdiction to enforce a provision of Part 1, General Requirements.",
+        "word_count": 21
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(c), the division may not initiate an action if the person: (i) cures the noticed violation within 30 days after the day on which the person receives the notice described in Subsection",
-        "word count": 32
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "In a court action by the division to enforce a provision of Part 1, General Requirements, the court may:",
+        "word_count": 19
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(a); and (ii) provides the division with a written statement that: (A) the person has cured the violation; and (B) no further violation will occur. (c) The division may initiate a civil action against a person that: (i) fails to cure a violation after receiving the notice described in Subsection",
-        "word count": 50
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "declare that the act or practice violates a provision of Part 1, General Requirements; Page 5 Utah Code",
+        "word_count": 18
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(a); or (ii) after curing a noticed violation and providing a written statement in accordance with Subsection",
-        "word count": 17
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "issue an injunction for a violation of Part 1, General Requirements;",
+        "word_count": 11
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(b), commits another violation of the same provision.",
-        "word count": 8
+        "article_number": "iii",
+        "type": "Section 13",
+        "text": "order disgorgement of any money received in violation of Part 1, General Requirements;",
+        "word_count": 13
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "5",
-        "type": "section",
-        "section": "Section 13",
-        "text": "If a court of competent jurisdiction grants judgment or injunctive relief to the division, the court shall award the division: (a) reasonable attorney fees; (b) court costs; and (c) investigative fees.",
-        "word count": 31
+        "article_number": "iv",
+        "type": "Section 13",
+        "text": "order payment of disgorged money to an injured purchaser or consumer;",
+        "word_count": 11
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "6",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(a) A person who violates an administrative or court order issued for a violation of Part 1, General Requirements, is subject to a civil penalty of no more than $5,000 for each violation. (b) A civil penalty authorized under this section may be imposed in any civil action brought by the division, or by the attorney general on behalf of the division.",
-        "word count": 62
+        "article_number": "v",
+        "type": "Section 13",
+        "text": "impose a civil penalty of up to $2,500 for each violation of Part 1, General Requirements;",
+        "word_count": 17
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "7",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "vi",
+        "type": "Section 13",
+        "text": "award actual damages to an injured purchaser or consumer; and",
+        "word_count": 10
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "vii",
+        "type": "Section 13",
+        "text": "award any other relief that the court deems reasonable and necessary.",
+        "word_count": 11
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "At least 30 days before the day on which the division initiates an enforcement action against a person that is subject to the requirements of Part 1, General Requirements, the division shall provide the person with:",
+        "word_count": 36
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "written notice that identifies each alleged violation; and",
+        "word_count": 8
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "an explanation of the basis for each allegation.",
+        "word_count": 8
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "Except as provided under Subsection (4)(c), the division may not initiate an action if the person:",
+        "word_count": 17
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "cures the noticed violation within 30 days after the day on which the person receives the notice described in Subsection (4)(a); and",
+        "word_count": 23
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "provides the division with a written statement that: (A) the person has cured the violation; and (B) no further violation will occur.",
+        "word_count": 22
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "c",
+        "type": "Section 13",
+        "text": "The division may initiate a civil action against a person that:",
+        "word_count": 11
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "fails to cure a violation after receiving the notice described in Subsection (4)(a); or",
+        "word_count": 15
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "after curing a noticed violation and providing a written statement in accordance with Subsection (4)(b), commits another violation of the same provision.",
+        "word_count": 23
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "5",
+        "type": "Section 13",
+        "text": "If a court of competent jurisdiction grants judgment or injunctive relief to the division, the court shall award the division:",
+        "word_count": 20
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "reasonable attorney fees;",
+        "word_count": 3
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "court costs; and",
+        "word_count": 3
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "c",
+        "type": "Section 13",
+        "text": "investigative fees.",
+        "word_count": 2
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "A person who violates an administrative or court order issued for a violation of Part 1, General Requirements, is subject to a civil penalty of no more than $5,000 for each violation.",
+        "word_count": 33
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "A civil penalty authorized under this section may be imposed in any civil action brought by the division, or by the attorney general on behalf of the division.",
+        "word_count": 28
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "7",
+        "type": "Section 13",
         "text": "All money received for the payment of a fine or civil penalty imposed under this section shall be deposited into the Consumer Protection Education and Training Fund established in",
-        "word count": 29
+        "word_count": 29
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "13",
-        "type": "section",
-        "section": "Section 13",
-        "text": "-2-",
-        "word count": 1
+        "article_number": "1",
+        "type": "Section 13",
+        "text": "The division shall compile an annual report:",
+        "word_count": 7
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "8",
-        "type": "section",
-        "section": "Section 13",
-        "text": "Enacted by Chapter 498, 2023 General Session 13-63-203 Division report.",
-        "word count": 10
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "evaluating the liability and enforcement provisions of this chapter, including:",
+        "word_count": 10
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 13",
-        "text": "The division shall compile an annual report: (a) evaluating the liability and enforcement provisions of this chapter, including: (i) the effectiveness of the division's efforts to enforce this chapter; and (ii) any recommendations for changes to this chapter; (b) summarizing the consumer interactions that are protected and not protected by this chapter, including a list of alleged violations the division has received; and (c) an accounting of: (i) all administrative fines and civil penalties assessed during the year; Page 6 Utah Code (ii) all administrative fines and civil penalties collected during the year; and (iii) the use of funds from the Consumer Protection Education and Training Fund.",
-        "word count": 107
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "the effectiveness of the division's efforts to enforce this chapter; and",
+        "word_count": 12
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "any recommendations for changes to this chapter;",
+        "word_count": 7
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "summarizing the consumer interactions that are protected and not protected by this chapter, including a list of alleged violations the division has received; and",
+        "word_count": 24
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "c",
+        "type": "Section 13",
+        "text": "an accounting of:",
+        "word_count": 3
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "all administrative fines and civil penalties assessed during the year; Page 6 Utah Code",
+        "word_count": 14
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "all administrative fines and civil penalties collected during the year; and",
+        "word_count": 11
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "iii",
+        "type": "Section 13",
+        "text": "the use of funds from the Consumer Protection Education and Training Fund.",
+        "word_count": 12
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "2",
+        "type": "Section 13",
         "text": "The division may update or correct the report as new information becomes available.",
-        "word count": 13
+        "word_count": 13
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "3",
+        "type": "Section 13",
         "text": "The division shall submit the report to the Business and Labor Interim Committee on or before the August meeting of each interim period. Enacted by Chapter 498, 2023 General Session Part 3 Private Right of Action for Violation of General Requirements 13-63-301 Private right of action.",
-        "word count": 46
+        "word_count": 46
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "1",
+        "type": "Section 13",
         "text": "Beginning March 1, 2024, a person may bring an action against a person that does not comply with a requirement of Part 1, General Requirements.",
-        "word count": 25
+        "word_count": 25
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "2",
+        "type": "Section 13",
         "text": "A suit filed under the authority of this section shall be filed in the district court for the district in which a person bringing the action resides.",
-        "word count": 27
+        "word_count": 27
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
-        "text": "If a court finds that a person has violated a provision of Part 1, General Requirements, the person who brings an action under this section is entitled to: (a) an award of reasonable attorney fees and court costs; and (b) an amount equal to the greater of: (i) $2,500 per each incident of violation; or (ii) actual damages for financial, physical, and emotional harm incurred by the person bringing the action, if the court determines that the harm is a direct consequence of the violation or violations. Enacted by Chapter 498, 2023 General Session Part 4 Social Media Design Regulations 13-63-401 Social media platform design regulations -- Enforcement and auditing authority -- Penalties.",
-        "word count": 113
+        "article_number": "3",
+        "type": "Section 13",
+        "text": "If a court finds that a person has violated a provision of Part 1, General Requirements, the person who brings an action under this section is entitled to:",
+        "word_count": 28
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 13",
-        "text": "Beginning March 1, 2024: (a) the division shall administer and enforce the provisions of this section; and (b) the division may audit the records of a social media company in order to determine compliance with the requirements of this section or to investigate a complaint, including a random sample of a social media company's records and other audit methods.",
-        "word count": 59
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "an award of reasonable attorney fees and court costs; and",
+        "word_count": 10
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "an amount equal to the greater of:",
+        "word_count": 7
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "$2,500 per each incident of violation; or",
+        "word_count": 8
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "actual damages for financial, physical, and emotional harm incurred by the person bringing the action, if the court determines that the harm is a direct consequence of the violation or violations. Enacted by Chapter 498, 2023 General Session Part 4 Social Media Design Regulations 13-63-401 Social media platform design regulations -- Enforcement and auditing authority -- Penalties.",
+        "word_count": 55
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "1",
+        "type": "Section 13",
+        "text": "Beginning March 1, 2024:",
+        "word_count": 4
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "the division shall administer and enforce the provisions of this section; and",
+        "word_count": 12
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "the division may audit the records of a social media company in order to determine compliance with the requirements of this section or to investigate a complaint, including a random sample of a social media company's records and other audit methods.",
+        "word_count": 42
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "2",
+        "type": "Section 13",
         "text": "Beginning March 1, 2024, a social media company shall not use a practice, design, or feature on the company's social media platform that the social media company knows, or which by the exercise of reasonable care should know, causes a Utah minor account holder to have an addiction to the social media platform.",
-        "word count": 53
+        "word_count": 54
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
-        "text": "Beginning March 1, 2024: (a) Subject to Subsection",
-        "word count": 8
+        "article_number": "3",
+        "type": "Section 13",
+        "text": "Beginning March 1, 2024:",
+        "word_count": 4
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(b), a social media company is subject to: (i) a civil penalty of $250,000 for each practice, design, or feature shown to have caused addiction; and Page 7 Utah Code (ii) a civil penalty of up to $2,500 for each Utah minor account holder who is shown to have been exposed to the practice, design, or feature found to have caused addiction under Subsection",
-        "word count": 64
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "Subject to Subsection (3)(b), a social media company is subject to:",
+        "word_count": 12
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(a)(i). (b) A social media company shall not be subject to a civil penalty for violating this section if the social media company, as an affirmative defense, demonstrates that the social media company: (i) instituted and maintained a program of at least quarterly audits of the social media company's practices, designs, and features to detect practices, designs, or features that have the potential to cause or contribute to the addiction of a minor user; and (ii) corrected, within 30 days of the completion of an audit described in Subsection",
-        "word count": 89
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "a civil penalty of $250,000 for each practice, design, or feature shown to have caused addiction; and Page 7 Utah Code",
+        "word_count": 22
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
-        "text": "(b)(i), any practice, design, or feature discovered by the audit to present more than a de minimus risk of violating this section. (c) In a court action by the division to enforce this section, the court may, in addition to a civil penalty: (i) declare that the act or practice violates a provision of this section; (ii) issue an injunction for a violation of this section; (iii) award actual damages to an injured purchaser or consumer; and (iv) award any other relief that the court deems reasonable and necessary.",
-        "word count": 89
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "a civil penalty of up to $2,500 for each Utah minor account holder who is shown to have been exposed to the practice, design, or feature found to have caused addiction under Subsection (3)(a)(i).",
+        "word_count": 37
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
-        "text": "Nothing in this section may be construed to impose liability for a social media company for any of the following: (a) content that is generated by an account holder, or uploaded to or shared on the platform by an account holder, that may be encountered by another account holder; (b) passively displaying content that is created entirely by a third party; (c) information or content for which the social media company was not, in whole or in part, responsible for creating or developing; or (d) any conduct by a social media company involving a Utah minor account holder who would otherwise be protected by federal or Utah law.",
-        "word count": 108
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "A social media company shall not be subject to a civil penalty for violating this section if the social media company, as an affirmative defense, demonstrates that the social media company:",
+        "word_count": 31
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "5",
-        "type": "section",
-        "section": "Section 13",
-        "text": "If a court of competent jurisdiction grants judgment or injunctive relief to the division, the court shall award the division: (a) reasonable attorney fees; (b) court costs; and (c) investigative fees.",
-        "word count": 31
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "instituted and maintained a program of at least quarterly audits of the social media company's practices, designs, and features to detect practices, designs, or features that have the potential to cause or contribute to the addiction of a minor user; and",
+        "word_count": 42
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "6",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "corrected, within 30 days of the completion of an audit described in Subsection (3)(b)(i), any practice, design, or feature discovered by the audit to present more than a de minimus risk of violating this section.",
+        "word_count": 37
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "c",
+        "type": "Section 13",
+        "text": "In a court action by the division to enforce this section, the court may, in addition to a civil penalty:",
+        "word_count": 20
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "declare that the act or practice violates a provision of this section;",
+        "word_count": 12
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "issue an injunction for a violation of this section;",
+        "word_count": 9
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "iii",
+        "type": "Section 13",
+        "text": "award actual damages to an injured purchaser or consumer; and",
+        "word_count": 10
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "iv",
+        "type": "Section 13",
+        "text": "award any other relief that the court deems reasonable and necessary.",
+        "word_count": 11
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "4",
+        "type": "Section 13",
+        "text": "Nothing in this section may be construed to impose liability for a social media company for any of the following:",
+        "word_count": 20
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "content that is generated by an account holder, or uploaded to or shared on the platform by an account holder, that may be encountered by another account holder;",
+        "word_count": 28
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "passively displaying content that is created entirely by a third party;",
+        "word_count": 11
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "c",
+        "type": "Section 13",
+        "text": "information or content for which the social media company was not, in whole or in part, responsible for creating or developing; or",
+        "word_count": 22
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "d",
+        "type": "Section 13",
+        "text": "any conduct by a social media company involving a Utah minor account holder who would otherwise be protected by federal or Utah law.",
+        "word_count": 23
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "5",
+        "type": "Section 13",
+        "text": "If a court of competent jurisdiction grants judgment or injunctive relief to the division, the court shall award the division:",
+        "word_count": 20
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "reasonable attorney fees;",
+        "word_count": 3
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "court costs; and",
+        "word_count": 3
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "c",
+        "type": "Section 13",
+        "text": "investigative fees.",
+        "word_count": 2
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "6",
+        "type": "Section 13",
         "text": "Nothing in this section may be construed to negate or limit a cause of action that may have existed or exists against a social media company under the law as it existed before the effective date of this section.",
-        "word count": 39
+        "word_count": 39
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "7",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "7",
+        "type": "Section 13",
         "text": "All money received for the payment of a fine or civil penalty imposed under this section shall be deposited into the Consumer Protection Education and Training Fund established in",
-        "word count": 29
+        "word_count": 29
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "13",
-        "type": "section",
-        "section": "Section 13",
-        "text": "-2-",
-        "word count": 1
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "8",
-        "type": "section",
-        "section": "Section 13",
-        "text": "Enacted by Chapter 477, 2023 General Session Part 5 Harm to a Minor by a Social Media Company -- Private Right of Action 13-63-501 Private right of action for harm to a minor -- Rebuttable presumption of harm and causation. Page 8 Utah Code",
-        "word count": 44
-    },
-    {
-        "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "1",
+        "type": "Section 13",
         "text": "Beginning March 1, 2024, a person may bring an action under this section against a social media company to recover damages incurred after March 1, 2024 by a Utah minor account holder for any addiction, financial, physical, or emotional harm suffered as a consequence of using or having an account on the social media company's social media platform.",
-        "word count": 58
+        "word_count": 59
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "2",
+        "type": "Section 13",
         "text": "A suit filed under the authority of this section shall be filed in the district court for the district in which the Utah minor account holder resides.",
-        "word count": 27
+        "word_count": 27
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
-        "text": "Notwithstanding Subsection",
-        "word count": 2
+        "article_number": "3",
+        "type": "Section 13",
+        "text": "Notwithstanding Subsection (4), if a court finds that a Utah minor account holder has been harmed as a consequence of using or having an account on the social media company's social media platform, the minor seeking relief under this section is entitled to:",
+        "word_count": 44
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
-        "text": ", if a court finds that a Utah minor account holder has been harmed as a consequence of using or having an account on the social media company's social media platform, the minor seeking relief under this section is entitled to: (a) an award of reasonable attorney fees and court costs; and (b) an amount equal to the greater of: (i) $2,500 per each incident of harm; or (ii) actual damages for addiction, financial, physical, and emotional harm incurred by the person bringing the action, if the court determines that the harm is a direct consequence of the violation or violations.",
-        "word count": 101
+        "article_number": "a",
+        "type": "Section 13",
+        "text": "an award of reasonable attorney fees and court costs; and",
+        "word_count": 10
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "b",
+        "type": "Section 13",
+        "text": "an amount equal to the greater of:",
+        "word_count": 7
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "i",
+        "type": "Section 13",
+        "text": "$2,500 per each incident of harm; or",
+        "word_count": 8
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "ii",
+        "type": "Section 13",
+        "text": "actual damages for addiction, financial, physical, and emotional harm incurred by the person bringing the action, if the court determines that the harm is a direct consequence of the violation or violations.",
+        "word_count": 32
+    },
+    {
+        "kb": "Utah_Social_Media_Regulation_Act",
+        "article_number": "4",
+        "type": "Section 13",
         "text": "If a Utah minor account holder seeking recovery of damages under this section is under the age of 16, there shall be a rebuttable presumption that the harm actually occurred and that the harm was a caused as a consequence of using or having an account on the social media company's social media platform. Enacted by Chapter 477, 2023 General Session Part 6 Waiver Prohibited 13-63-601 Waiver prohibited. A waiver or limitation, or a purported waiver or limitation, of any of the following is void as unlawful, is against public policy, and a court or arbitrator may not enforce or give effect to the waiver, notwithstanding any contract or choice-of-law provision in a contract:",
-        "word count": 114
+        "word_count": 115
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "1",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "1",
+        "type": "Section 13",
         "text": "a protection or requirement provided under this chapter;",
-        "word count": 8
+        "word_count": 8
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "2",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "2",
+        "type": "Section 13",
         "text": "the right to cooperate with the division or to file a complaint with the division;",
-        "word count": 15
+        "word_count": 15
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "3",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "3",
+        "type": "Section 13",
         "text": "the right to a private right of action as provided under this chapter; or",
-        "word count": 14
+        "word_count": 14
     },
     {
         "kb": "Utah_Social_Media_Regulation_Act",
-        "article number": "4",
-        "type": "section",
-        "section": "Section 13",
+        "article_number": "4",
+        "type": "Section 13",
         "text": "the right to recover actual damages, statutory damages, civil penalties, costs, or fees as allowed by this chapter. Enacted by Chapter 477, 2023 General Session Enacted by Chapter 498, 2023 General Session Part 7 Severability 13-63-701 Severability. If any provision of this chapter or the application of any provision to any person or circumstance is held invalid by a final decision of a court of competent jurisdiction, the remainder of this chapter Page 9 Utah Code shall be given effect without the invalid provision or application. The provisions of this chapter are severable. Enacted by Chapter 477, 2023 General Session Enacted by Chapter 498, 2023 General Session Page 10",
-        "word count": 109
+        "word_count": 109
     }
 ]

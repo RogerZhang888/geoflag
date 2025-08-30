@@ -1,458 +1,240 @@
 [
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": null,
-        "type": "article",
-        "section": null,
-        "text": "(a)Duty To Report.—",
-        "word count": 3
+        "article_number": "a",
+        "type": "Section a",
+        "text": "Duty To Report.— (1)In general.—",
+        "word_count": 5
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "In general.— (A)Duty.—In order to reduce the proliferation of online child sexual exploitation and to prevent the online sexual exploitation of children, a provider— (i)shall, as soon as reasonably possible after obtaining actual knowledge of any facts or circumstances described in paragraph",
-        "word count": 42
+        "article_number": "A",
+        "type": "Section A",
+        "text": "Duty.—In order to reduce the proliferation of online child sexual exploitation and to prevent the online sexual exploitation of children, a provider—",
+        "word_count": 22
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "(A), take the actions described in subparagraph (B); and (ii)may, after obtaining actual knowledge of any facts or circumstances described in paragraph",
-        "word count": 22
+        "article_number": "i",
+        "type": "Section i",
+        "text": "shall, as soon as reasonably possible after obtaining actual knowledge of any facts or circumstances described in paragraph (2)(A), take the actions described in subparagraph (B); and (ii)may, after obtaining actual knowledge of any facts or circumstances described in paragraph (2)(B), take the actions described in subparagraph (B).",
+        "word_count": 48
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "(B), take the actions described in subparagraph (B). (B)Actions described.—The actions described in this subparagraph are— (i)providing to the CyberTipline of NCMEC, or any successor to the CyberTipline operated by NCMEC, the mailing address, telephone number, facsimile number, electronic mailing address of, and individual point of contact for, such provider; and (ii)making a report of such facts or circumstances to the CyberTipline, or any successor to the CyberTipline operated by NCMEC.",
-        "word count": 71
+        "article_number": "B",
+        "type": "Section B",
+        "text": "Actions described.—The actions described in this subparagraph are—",
+        "word_count": 8
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "Facts or circumstances.— (A)Apparent violations.— The facts or circumstances described in this subparagraph are any facts or circumstances from which there is an apparent violation of section 2251, 2251A, 2252, 2252A, 2252B, or 2260 that involves child pornography, of section 1591 (if the violation involves a minor), or of [1] 2422(b). (B)Imminent violations.— The facts or circumstances described in this subparagraph are any facts or circumstances which indicate a violation of any of the sections described in subparagraph (A) involving child pornography may be planned or imminent. (b)Contents of Report.—In an effort to prevent the future sexual victimization of children, and to the extent the information is within the custody or control of a provider, the facts and circumstances included in each report under subsection (a)",
-        "word count": 126
+        "article_number": "i",
+        "type": "Section i",
+        "text": "providing to the CyberTipline of NCMEC, or any successor to the CyberTipline operated by NCMEC, the mailing address, telephone number, facsimile number, electronic mailing address of, and individual point of contact for, such provider; and (ii)making a report of such facts or circumstances to the CyberTipline, or any successor to the CyberTipline operated by NCMEC. (2)Facts or circumstances.—",
+        "word_count": 58
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "may, at the sole discretion of the provider, include the following information:",
-        "word count": 12
+        "article_number": "A",
+        "type": "Section A",
+        "text": "Apparent violations.— The facts or circumstances described in this subparagraph are any facts or circumstances from which there is an apparent violation of section 2251, 2251A, 2252, 2252A, 2252B, or 2260 that involves child pornography, of section 1591 (if the violation involves a minor), or of [1] 2422(b).",
+        "word_count": 48
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "Information about the involved individual.— Information relating to the identity of any individual who appears to have violated or plans to violate a Federal law described in subsection (a)",
-        "word count": 29
+        "article_number": "B",
+        "type": "Section B",
+        "text": "Imminent violations.— The facts or circumstances described in this subparagraph are any facts or circumstances which indicate a violation of any of the sections described in subparagraph (A) involving child pornography may be planned or imminent.",
+        "word_count": 36
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": ", which may, to the extent reasonably practicable, include the electronic mail address, Internet Protocol address, uniform resource locator, payment information (excluding personally identifiable information), or any other identifying information, including self-reported identifying information.",
-        "word count": 34
+        "article_number": "b",
+        "type": "Section b",
+        "text": "Contents of Report.—In an effort to prevent the future sexual victimization of children, and to the extent the information is within the custody or control of a provider, the facts and circumstances included in each report under subsection (a)(1) may, at the sole discretion of the provider, include the following information: (1)Information about the involved individual.— Information relating to the identity of any individual who appears to have violated or plans to violate a Federal law described in subsection (a)(2), which may, to the extent reasonably practicable, include the electronic mail address, Internet Protocol address, uniform resource locator, payment information (excluding personally identifiable information), or any other identifying information, including self-reported identifying information. (2)Historical reference.— Information relating to when and how a customer or subscriber of a provider uploaded, transmitted, or received content relating to the report or when and how content relating to the report was reported to, or discovered by the provider, including a date and time stamp and time zone. (3)Geographic location information.— Information relating to the geographic location of the involved individual or website, which may include the Internet Protocol address or verified address, or, if not reasonably available, at least one form of geographic identifying information, including area code or zip code, provided by the customer or subscriber, or stored or obtained by the provider. (4)Visual depictions of apparent child pornography.— Any visual depiction of apparent child pornography or other content relating to the incident such report is regarding. (5)Complete communication.—The complete communication containing any visual depiction of apparent child pornography or other content, including—",
+        "word_count": 260
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "Historical reference.— Information relating to when and how a customer or subscriber of a provider uploaded, transmitted, or received content relating to the report or when and how content relating to the report was reported to, or discovered by the provider, including a date and time stamp and time zone.",
-        "word count": 50
+        "article_number": "A",
+        "type": "Section A",
+        "text": "any data or information regarding the transmission of the communication; and",
+        "word_count": 11
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "Geographic location information.— Information relating to the geographic location of the involved individual or website, which may include the Internet Protocol address or verified address, or, if not reasonably available, at least one form of geographic identifying information, including area code or zip code, provided by the customer or subscriber, or stored or obtained by the provider.",
-        "word count": 57
+        "article_number": "B",
+        "type": "Section B",
+        "text": "any visual depictions, data, or other digital files contained in, or attached to, the communication.",
+        "word_count": 15
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "4",
-        "type": "article",
-        "section": null,
-        "text": "Visual depictions of apparent child pornography.— Any visual depiction of apparent child pornography or other content relating to the incident such report is regarding.",
-        "word count": 24
+        "article_number": "c",
+        "type": "Section c",
+        "text": "Forwarding of Report to Law Enforcement.—Pursuant to its clearinghouse role as a private, nonprofit organization, and at the conclusion of its review in furtherance of its nonprofit mission, NCMEC shall make available each report made under subsection (a)(1) to one or more of the following law enforcement agencies: (1)Any Federal law enforcement agency that is involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes. (2)Any State or local law enforcement agency that is involved in the investigation of child sexual exploitation. (3)A foreign law enforcement agency designated by the Attorney General under subsection (d)(3) or a foreign law enforcement agency that has an established relationship with the Federal Bureau of Investigation, Immigration and Customs Enforcement, or INTERPOL, and is involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes.",
+        "word_count": 134
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "5",
-        "type": "article",
-        "section": null,
-        "text": "Complete communication.—The complete communication containing any visual depiction of apparent child pornography or other content, including— (A)any data or information regarding the transmission of the communication; and (B)any visual depictions, data, or other digital files contained in, or attached to, the communication. (c)Forwarding of Report to Law Enforcement.—Pursuant to its clearinghouse role as a private, nonprofit organization, and at the conclusion of its review in furtherance of its nonprofit mission, NCMEC shall make available each report made under subsection (a)",
-        "word count": 80
+        "article_number": "d",
+        "type": "Section d",
+        "text": "Attorney General Responsibilities.— (1)In general.— The Attorney General shall enforce this section. (2)Designation of federal agencies.— The Attorney General may designate a Federal law enforcement agency or agencies to which a report shall be forwarded under subsection (c)(1). (3)Designation of foreign agencies.—The Attorney General may—",
+        "word_count": 45
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "to one or more of the following law enforcement agencies:",
-        "word count": 10
+        "article_number": "A",
+        "type": "Section A",
+        "text": "in consultation with the Secretary of State, designate foreign law enforcement agencies to which a report may be forwarded under subsection (c)(3);",
+        "word_count": 22
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "Any Federal law enforcement agency that is involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes.",
-        "word count": 19
+        "article_number": "B",
+        "type": "Section B",
+        "text": "establish the conditions under which such a report may be forwarded to such agencies; and",
+        "word_count": 15
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "Any State or local law enforcement agency that is involved in the investigation of child sexual exploitation.",
-        "word count": 17
+        "article_number": "C",
+        "type": "Section C",
+        "text": "develop a process for foreign law enforcement agencies to request assistance from Federal law enforcement agencies in obtaining evidence related to a report referred under subsection (c)(3). (4)Reporting designated foreign agencies.— The Attorney General may maintain and make available to the Department of State, NCMEC, providers, the Committee on the Judiciary of the Senate, and the Committee on the Judiciary of the House of Representatives a list of the foreign law enforcement agencies designated under paragraph (3). (5)Notification to providers.—",
+        "word_count": 80
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "A foreign law enforcement agency designated by the Attorney General under subsection (d)",
-        "word count": 13
+        "article_number": "A",
+        "type": "Section A",
+        "text": "In general.—NCMEC may notify a provider of the information described in subparagraph (B), if—",
+        "word_count": 14
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "or a foreign law enforcement agency that has an established relationship with the Federal Bureau of Investigation, Immigration and Customs Enforcement, or INTERPOL, and is involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes. (d)Attorney General Responsibilities.—",
-        "word count": 40
+        "article_number": "i",
+        "type": "Section i",
+        "text": "a provider notifies NCMEC that the provider is making a report under this section as the result of a request by a foreign law enforcement agency; and (ii)NCMEC forwards the report described in clause (i) to—",
+        "word_count": 36
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "In general.— The Attorney General shall enforce this section.",
-        "word count": 9
+        "article_number": "I",
+        "type": "Section I",
+        "text": "the requesting foreign law enforcement agency; or (II)another agency in the same country designated by the Attorney General under paragraph (3) or that has an established relationship with the Federal Bureau of Investigation, U.S. Immigration and Customs Enforcement, or INTERPOL and is involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes.",
+        "word_count": 54
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "Designation of federal agencies.— The Attorney General may designate a Federal law enforcement agency or agencies to which a report shall be forwarded under subsection (c)",
-        "word count": 26
+        "article_number": "B",
+        "type": "Section B",
+        "text": "Information described.—The information described in this subparagraph is—",
+        "word_count": 8
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": ".",
-        "word count": 1
+        "article_number": "i",
+        "type": "Section i",
+        "text": "the identity of the foreign law enforcement agency to which the report was forwarded; and (ii)the date on which the report was forwarded.",
+        "word_count": 23
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "Designation of foreign agencies.—The Attorney General may— (A)in consultation with the Secretary of State, designate foreign law enforcement agencies to which a report may be forwarded under subsection (c)",
-        "word count": 29
+        "article_number": "C",
+        "type": "Section C",
+        "text": "Notification of inability to forward report.— If a provider notifies NCMEC that the provider is making a report under this section as the result of a request by a foreign law enforcement agency and NCMEC is unable to forward the report as described in subparagraph (A)(ii), NCMEC shall notify the provider that NCMEC was unable to forward the report.",
+        "word_count": 59
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "; (B)establish the conditions under which such a report may be forwarded to such agencies; and (C)develop a process for foreign law enforcement agencies to request assistance from Federal law enforcement agencies in obtaining evidence related to a report referred under subsection (c)",
-        "word count": 43
+        "article_number": "e",
+        "type": "Section e",
+        "text": "Failure To Report.—A provider that knowingly and willfully fails to make a report required under subsection (a)(1) shall be fined— (1)in the case of an initial knowing and willful failure to make a report, not more than $850,000 in the case of a provider with not less than 100,000,000 monthly active users or $600,000 in the case of a provider with less than 100,000,000 monthly active users; and (2)in the case of any second or subsequent knowing and willful failure to make a report, not more than $1,000,000 in the case of a provider with not less than 100,000,000 monthly active users or $850,000 in the case of a provider with less than 100,000,000 monthly active users.",
+        "word_count": 117
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": ".",
-        "word count": 1
+        "article_number": "f",
+        "type": "Section f",
+        "text": "Protection of Privacy.—Nothing in this section shall be construed to require a provider to— (1)monitor any user, subscriber, or customer of that provider; (2)monitor the content of any communication of any person described in paragraph (1); or (3)affirmatively search, screen, or scan for facts or circumstances described in sections (a) and (b).",
+        "word_count": 52
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "4",
-        "type": "article",
-        "section": null,
-        "text": "Reporting designated foreign agencies.— The Attorney General may maintain and make available to the Department of State, NCMEC, providers, the Committee on the Judiciary of the Senate, and the Committee on the Judiciary of the House of Representatives a list of the foreign law enforcement agencies designated under paragraph",
-        "word count": 49
+        "article_number": "g",
+        "type": "Section g",
+        "text": "Conditions of Disclosure Information Contained Within Report.— (1)In general.— Except as provided in paragraph (2), a law enforcement agency that receives a report under subsection (c) shall not disclose any information contained in that report. (2)Permitted disclosures by law enforcement.—",
+        "word_count": 40
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": ".",
-        "word count": 1
+        "article_number": "A",
+        "type": "Section A",
+        "text": "In general.—A law enforcement agency may disclose information in a report received under subsection (c)—",
+        "word_count": 15
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "5",
-        "type": "article",
-        "section": null,
-        "text": "Notification to providers.— (A)In general.—NCMEC may notify a provider of the information described in subparagraph (B), if— (i)a provider notifies NCMEC that the provider is making a report under this section as the result of a request by a foreign law enforcement agency; and (ii)NCMEC forwards the report described in clause (i) to— (I)the requesting foreign law enforcement agency; or (II)another agency in the same country designated by the Attorney General under paragraph",
-        "word count": 73
+        "article_number": "i",
+        "type": "Section i",
+        "text": "to an attorney for the government for use in the performance of the official duties of that attorney; (ii)to such officers and employees of that law enforcement agency, as may be necessary in the performance of their investigative and recordkeeping functions; (iii)to such other government personnel (including personnel of a State or subdivision of a State) as are determined to be necessary by an attorney for the government to assist the attorney in the performance of the official duties of the attorney in enforcing Federal criminal law; (iv)if the report discloses a violation of State criminal law, to an appropriate official of a State or subdivision of a State for the purpose of enforcing such State law;",
+        "word_count": 117
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "or that has an established relationship with the Federal Bureau of Investigation, U.S. Immigration and Customs Enforcement, or INTERPOL and is involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes. (B)Information described.—The information described in this subparagraph is— (i)the identity of the foreign law enforcement agency to which the report was forwarded; and (ii)the date on which the report was forwarded. (C)Notification of inability to forward report.— If a provider notifies NCMEC that the provider is making a report under this section as the result of a request by a foreign law enforcement agency and NCMEC is unable to forward the report as described in subparagraph (A)(ii), NCMEC shall notify the provider that NCMEC was unable to forward the report. (e)Failure To Report.—A provider that knowingly and willfully fails to make a report required under subsection (a)",
-        "word count": 140
+        "article_number": "v",
+        "type": "Section v",
+        "text": "to a defendant in a criminal case or the attorney for that defendant, subject to the terms and limitations under section 3509(m) or a similar State law, to the extent the information relates to a criminal charge pending against that defendant; (vi)subject to subparagraph (B), to a provider if necessary to facilitate response to legal process issued in connection to a criminal investigation, prosecution, or post-conviction remedy relating to that report; and (vii)as ordered by a court upon a showing of good cause and pursuant to any protective orders or other conditions that the court may impose.",
+        "word_count": 97
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "shall be fined—",
-        "word count": 3
+        "article_number": "B",
+        "type": "Section B",
+        "text": "Limitation.— Nothing in subparagraph (A)(vi) authorizes a law enforcement agency to provide visual depictions of apparent child pornography to a provider. (3)Permitted disclosures by NCMEC.—NCMEC may disclose by mail, electronic transmission, or other reasonable means, information received in a report under subsection (a) only to—",
+        "word_count": 45
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "in the case of an initial knowing and willful failure to make a report, not more than $850,000 in the case of a provider with not less than 100,000,000 monthly active users or $600,000 in the case of a provider with less than 100,000,000 monthly active users; and",
-        "word count": 48
+        "article_number": "A",
+        "type": "Section A",
+        "text": "any Federal law enforcement agency designated by the Attorney General under subsection (d)(2) or that is involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes;",
+        "word_count": 28
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "in the case of any second or subsequent knowing and willful failure to make a report, not more than $1,000,000 in the case of a provider with not less than 100,000,000 monthly active users or $850,000 in the case of a provider with less than 100,000,000 monthly active users. (f)Protection of Privacy.—Nothing in this section shall be construed to require a provider to—",
-        "word count": 63
+        "article_number": "B",
+        "type": "Section B",
+        "text": "any State, local, or tribal law enforcement agency involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes;",
+        "word_count": 20
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "monitor any user, subscriber, or customer of that provider;",
-        "word count": 9
+        "article_number": "C",
+        "type": "Section C",
+        "text": "any foreign law enforcement agency designated by the Attorney General under subsection (d)(3) or that has an established relationship with the Federal Bureau of Investigation, Immigration and Customs Enforcement, or INTERPOL, and is involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes;",
+        "word_count": 45
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "monitor the content of any communication of any person described in paragraph",
-        "word count": 12
+        "article_number": "D",
+        "type": "Section D",
+        "text": "a provider as described in section 2258C; and",
+        "word_count": 8
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "; or",
-        "word count": 2
+        "article_number": "E",
+        "type": "Section E",
+        "text": "respond to legal process, as necessary. (4)Permitted disclosure by a provider.— A provider that submits a report under subsection (a)(1) may disclose by mail, electronic transmission, or other reasonable means, information, including visual depictions contained in the report, in a manner consistent with permitted disclosures under paragraphs (3) through (8) of section 2702(b) only to a law enforcement agency described in subparagraph (A), (B), or (C) of paragraph (3), to NCMEC, or as necessary to respond to legal process.",
+        "word_count": 79
     },
     {
         "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "affirmatively search, screen, or scan for facts or circumstances described in sections (a) and (b). (g)Conditions of Disclosure Information Contained Within Report.—",
-        "word count": 22
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "In general.— Except as provided in paragraph",
-        "word count": 7
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": ", a law enforcement agency that receives a report under subsection (c) shall not disclose any information contained in that report.",
-        "word count": 21
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "Permitted disclosures by law enforcement.— (A)In general.—A law enforcement agency may disclose information in a report received under subsection (c)— (i)to an attorney for the government for use in the performance of the official duties of that attorney; (ii)to such officers and employees of that law enforcement agency, as may be necessary in the performance of their investigative and recordkeeping functions; (iii)to such other government personnel (including personnel of a State or subdivision of a State) as are determined to be necessary by an attorney for the government to assist the attorney in the performance of the official duties of the attorney in enforcing Federal criminal law; (iv)if the report discloses a violation of State criminal law, to an appropriate official of a State or subdivision of a State for the purpose of enforcing such State law; (v)to a defendant in a criminal case or the attorney for that defendant, subject to the terms and limitations under section 3509(m) or a similar State law, to the extent the information relates to a criminal charge pending against that defendant; (vi)subject to subparagraph (B), to a provider if necessary to facilitate response to legal process issued in connection to a criminal investigation, prosecution, or post-conviction remedy relating to that report; and (vii)as ordered by a court upon a showing of good cause and pursuant to any protective orders or other conditions that the court may impose. (B)Limitation.— Nothing in subparagraph (A)(vi) authorizes a law enforcement agency to provide visual depictions of apparent child pornography to a provider.",
-        "word count": 255
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "Permitted disclosures by NCMEC.—NCMEC may disclose by mail, electronic transmission, or other reasonable means, information received in a report under subsection (a) only to— (A)any Federal law enforcement agency designated by the Attorney General under subsection (d)",
-        "word count": 37
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "or that is involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes; (B)any State, local, or tribal law enforcement agency involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes; (C)any foreign law enforcement agency designated by the Attorney General under subsection (d)",
-        "word count": 48
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "or that has an established relationship with the Federal Bureau of Investigation, Immigration and Customs Enforcement, or INTERPOL, and is involved in the investigation of child sexual exploitation, kidnapping, or enticement crimes; (D)a provider as described in section 2258C; and (E)respond to legal process, as necessary.",
-        "word count": 46
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "4",
-        "type": "article",
-        "section": null,
-        "text": "Permitted disclosure by a provider.— A provider that submits a report under subsection (a)",
-        "word count": 14
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "may disclose by mail, electronic transmission, or other reasonable means, information, including visual depictions contained in the report, in a manner consistent with permitted disclosures under paragraphs",
-        "word count": 27
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "through",
-        "word count": 1
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "8",
-        "type": "article",
-        "section": null,
-        "text": "of section 2702(b) only to a law enforcement agency described in subparagraph (A), (B), or (C) of paragraph",
-        "word count": 18
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": ", to NCMEC, or as necessary to respond to legal process. (h)Preservation.—",
-        "word count": 12
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "In general.— For the purposes of this section, a completed submission by a provider of a report to the CyberTipline under subsection (a)",
-        "word count": 23
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "shall be treated as a request to preserve the contents provided in the report for 1 year after the submission to the CyberTipline.",
-        "word count": 23
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": "Preservation of commingled content.— Pursuant to paragraph",
-        "word count": 7
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": ", a provider shall preserve any visual depictions, data, or other digital files that are reasonably accessible and may provide context or additional information about the reported material or person.",
-        "word count": 30
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "3",
-        "type": "article",
-        "section": null,
-        "text": "Protection of preserved materials.— A provider preserving materials under this section shall maintain the materials in a secure location and take appropriate steps to limit access by agents or employees of the service to the materials to that access necessary to comply with the requirements of this subsection.",
-        "word count": 48
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "4",
-        "type": "article",
-        "section": null,
-        "text": "Authorities and duties not affected.— Nothing in this section shall be construed as replacing, amending, or otherwise interfering with the authorities and duties under section",
-        "word count": 25
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "5",
-        "type": "article",
-        "section": null,
-        "text": "Extension of preservation.— A provider of a report to the CyberTipline under subsection (a)",
-        "word count": 14
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "may voluntarily preserve the contents provided in the report (including any comingled content described in paragraph",
-        "word count": 16
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "2",
-        "type": "article",
-        "section": null,
-        "text": ") for longer than 1 year after the submission to the CyberTipline for the purpose of reducing the proliferation of online child sexual exploitation or preventing the online sexual exploitation of children.",
-        "word count": 32
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "6",
-        "type": "article",
-        "section": null,
-        "text": "Method of preservation.— Not later than 1 year after the date of enactment of this paragraph, a provider of a report to the CyberTipline under subsection (a)",
-        "word count": 27
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "1",
-        "type": "article",
-        "section": null,
-        "text": "shall preserve materials under this subsection in a manner that is consistent with the most recent version of the Cybersecurity Framework developed by the National Institute of Standards and Technology, or any successor thereto. (Added Pub. L. 110–401, title V, § 501(a), Oct. 13, 2008, 122 Stat. 4243; amended Pub. L. 115–395, § 2, Dec. 21, 2018, 132 Stat. 5287; Pub. L. 118–59, §§ 3, 4(a), May 7, 2024, 138 Stat.",
-        "word count": 71
-    },
-    {
-        "kb": "Reporting_requirements_of_providers",
-        "article number": "1016",
-        "type": "article",
-        "section": null,
-        "text": ")",
-        "word count": 1
+        "article_number": "h",
+        "type": "Section h",
+        "text": "Preservation.— (1)In general.— For the purposes of this section, a completed submission by a provider of a report to the CyberTipline under subsection (a)(1) shall be treated as a request to preserve the contents provided in the report for 1 year after the submission to the CyberTipline. (2)Preservation of commingled content.— Pursuant to paragraph (1), a provider shall preserve any visual depictions, data, or other digital files that are reasonably accessible and may provide context or additional information about the reported material or person. (3)Protection of preserved materials.— A provider preserving materials under this section shall maintain the materials in a secure location and take appropriate steps to limit access by agents or employees of the service to the materials to that access necessary to comply with the requirements of this subsection. (4)Authorities and duties not affected.— Nothing in this section shall be construed as replacing, amending, or otherwise interfering with the authorities and duties under section 2703. (5)Extension of preservation.— A provider of a report to the CyberTipline under subsection (a)(1) may voluntarily preserve the contents provided in the report (including any comingled content described in paragraph (2)) for longer than 1 year after the submission to the CyberTipline for the purpose of reducing the proliferation of online child sexual exploitation or preventing the online sexual exploitation of children. (6)Method of preservation.— Not later than 1 year after the date of enactment of this paragraph, a provider of a report to the CyberTipline under subsection (a)(1) shall preserve materials under this subsection in a manner that is consistent with the most recent version of the Cybersecurity Framework developed by the National Institute of Standards and Technology, or any successor thereto. (Added Pub. L. 110–401, title V, § 501(a), Oct. 13, 2008, 122 Stat. 4243; amended Pub. L. 115–395, § 2, Dec. 21, 2018, 132 Stat. 5287; Pub. L. 118–59, §§ 3, 4(a), May 7, 2024, 138 Stat. 1016.)",
+        "word_count": 319
     }
 ]
