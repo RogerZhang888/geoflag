@@ -16,5 +16,5 @@ export default function TypingAnim({ text }) {
     return () => clearInterval(interval);
   }, [text]);
 
-  return <div className="text-lg text-slate-500">{displayed}</div>;
+  return <div className="text-md text-slate-500">{displayed}</div>;
 }

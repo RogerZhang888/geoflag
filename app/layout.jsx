@@ -16,8 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className}`}>
         <Providers>
-          {children}
-          <Toaster position="top-center" />
+          <div className="min-h-[calc(100vh-80px)]">{children}</div>
         </Providers>
       </body>
     </html>

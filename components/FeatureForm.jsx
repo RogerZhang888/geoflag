@@ -149,15 +149,10 @@ export default function FeatureForm() {
           GeoFlag AI:
         </div>
 
-        <div className="text-lg text-slate-500">
-          <TypingAnim
-            text=
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo id, iure quas, recusandae voluptatem dolore distinctio nobis quae blanditiis magni eos mollitia accusantium eaque quisquam eius aliquam, nihil provident consequuntur?"
-            
-          />
+        <div className="text-md text-slate-500">
+          <TypingAnim text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo id, iure quas, recusandae voluptatem dolore distinctio nobis quae blanditiis magni eos mollitia accusantium eaque quisquam eius aliquam, nihil provident consequuntur?" />
         </div>
       </div>
-
     </div>
   );
 }
