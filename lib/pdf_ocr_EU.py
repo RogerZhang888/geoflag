@@ -4,108 +4,101 @@ import json
 from pdf2image import convert_from_path
 import pytesseract
 
-# Optional: set tesseract path if not in PATH
+# Optional: set path to tesseract if not in system PATH
 # pytesseract.pytesseract.tesseract_cmd = "/usr/local/bin/tesseract"
 
-# Matches article headers: "Article 21", "ARTICLE 5"
-ARTICLE_HDR_RE = re.compile(r'(?:Article\s+\d+)', re.IGNORECASE)
+ENACTMENT_PHRASE = "HAVE ADOPTED THIS REGULATION:"
 
-# Top-level article markers: (a), (b), (1), (2), (i), (ii)...
-TOP_MARKER_RE = re.compile(
-    r'\(\s*(?:'
-    r'[a-z]{1,2}'          # (a), (aa)
-    r'|'
-    r'\d{1,3}'             # (1), (22)
-    r'|'
-    r'ix|iv|v?i{0,3}'      # roman numerals up to (ix)
-    r')\s*\)\s+'
-)
+# Regex patterns
+ARTICLE_HDR_RE = re.compile(r'\bArticle\s+(\d+)\b', re.IGNORECASE)  # Article 1, Article 2
+NUMBERED_RE = re.compile(r'^\s*(\d+)\.\s+', re.MULTILINE)           # 1., 2., 3. at line start
 
 def word_count(text: str) -> int:
     return len(re.findall(r'\b[\w\-]+\b', text))
 
 def clean_noise(s: str) -> str:
-    # remove page headers/footers
-    s = re.sub(r'EN Official Journal.*?\d{4}', ' ', s)
-    s = re.sub(r'\s+', ' ', s)
+    """Basic cleanup of OCR noise and whitespace."""
+    s = re.sub(r'\s+', ' ', s)  # collapse multiple spaces/newlines
     return s.strip()
 
-def extract_articles_from_chunk(chunk: str, current_article: str, doc_title: str, min_words: int = 2):
-    entries = []
-    markers = list(TOP_MARKER_RE.finditer(chunk))
+def text_after_enactment(full_text: str) -> str:
+    """Skip everything before the enactment phrase."""
+    idx = full_text.find(ENACTMENT_PHRASE)
+    if idx != -1:
+        return full_text[idx + len(ENACTMENT_PHRASE):].strip()
+    return full_text
 
-    # If no (a)/(1) etc. markers, treat whole article as one block
-    if not markers:
-        body = clean_noise(chunk)
-        wc = word_count(body)
-        if wc >= min_words:
-            entries.append({
-                "kb": doc_title,
-                "article_number": None,
-                "type": current_article,
-                "text": body,
-                "word_count": wc
-            })
-        return entries
-
-    for i, m in enumerate(markers):
-        article_number = m.group(0).strip("() ").strip()
+def extract_numbered_sections(article_text: str, kb_title: str, article_header: str):
+    """Split article text into numbered sections: 1., 2., 3., etc."""
+    results = []
+    matches = list(NUMBERED_RE.finditer(article_text))
+    
+    for i, m in enumerate(matches):
+        article_number = m.group(1)
         start = m.end()
-        end = markers[i + 1].start() if i + 1 < len(markers) else len(chunk)
-        body = chunk[start:end].strip()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(article_text)
+        body = article_text[start:end].strip()
         body = clean_noise(body)
-
-        wc = word_count(body)
-        if wc >= min_words:
-            entries.append({
-                "kb": doc_title,
-                "article_number": article_number,
-                "type": current_article,
+        if word_count(body) >= 2:
+            results.append({
+                "kb": kb_title,
+                "article number": article_number,
+                "type": article_header,
                 "text": body,
-                "word_count": wc
+                "word count": word_count(body)
             })
-    return entries
+    return results
 
-def pdf_to_json(pdf_file: str, json_file: str, doc_title: str, min_words: int = 2):
-    # 1. OCR all pages
+def pdf_to_json(pdf_file: str, json_file: str, kb_title: str):
+    """OCR PDF → JSON by Article and numbered sections."""
+    # 1) OCR PDF pages
     pages = convert_from_path(pdf_file)
     full_text = ""
     for page in pages:
         full_text += pytesseract.image_to_string(page) + "\n"
 
-    # 2. Normalize
     full_text = clean_noise(full_text)
+    full_text = text_after_enactment(full_text)
 
-    # 3. Split by "Article <num>"
+    # 2) Split by Article headers
     parts = re.split(f'({ARTICLE_HDR_RE.pattern})', full_text)
-    entries = []
-    current_article = None
+    results = []
+    current_article_header = None
+    article_text_lines = []
 
     for part in parts:
-        if not part or not part.strip():
-            continue
         part = part.strip()
-
-        if ARTICLE_HDR_RE.fullmatch(part):
-            current_article = part
+        if not part:
             continue
 
-        if current_article:
-            entries.extend(extract_articles_from_chunk(part, current_article, doc_title, min_words=min_words))
+        m = ARTICLE_HDR_RE.match(part)
+        if m:
+            # Save previous article
+            if current_article_header and article_text_lines:
+                article_text = "\n".join(article_text_lines)
+                results.extend(extract_numbered_sections(article_text, kb_title, current_article_header))
+            # Start new article
+            current_article_header = f"Article {m.group(1)}"
+            article_text_lines = []
+        else:
+            article_text_lines.append(part)
 
-    # 4. Save JSON
+    # Save last article
+    if current_article_header and article_text_lines:
+        article_text = "\n".join(article_text_lines)
+        results.extend(extract_numbered_sections(article_text, kb_title, current_article_header))
+
+    # 3) Save JSON
     os.makedirs(os.path.dirname(json_file), exist_ok=True)
     with open(json_file, "w", encoding="utf-8") as f:
-        json.dump(entries, f, indent=4, ensure_ascii=False)
+        json.dump(results, f, indent=4, ensure_ascii=False)
 
-    print(f"✅ Extracted {len(entries)} entries (min {min_words} words each) → {json_file}")
-    return entries
+    print(f"✅ Extracted {len(results)} sections → {json_file}")
+    return results
 
-
-# Example run
+# Example usage
 pdf_to_json(
-    "laws_pdf_file/EU_Digital_Service_Act.pdf",
-    "laws_json_file/EU_Digital_Service_Act.json",
-    "EU_Digital_Service",
-    min_words=2
+    "laws_pdf_file/EU_Digital_Service_Act_Copy.pdf",
+    "laws_json_file/EU_Digital_Service_Act_Copy.json",
+    kb_title="EU_Digital_Service_Act_Copy"
 )
