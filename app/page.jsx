@@ -14,9 +14,17 @@ import { Loader2, Plus } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { cn, countComplianceByRegion, interpolateColor } from "@/lib/utils";
+import {
+  cn,
+  countComplianceByRegion,
+  getFlagEmoji,
+  interpolateColor,
+  regionFullNames
+} from "@/lib/utils";
 import { supabaseClient } from "@/lib/supabase/client";
 import { MASTER_COORDS } from "@/lib/openstreetmap/simplified/coords";
+import ColorScale from "@/components/ColorScale";
+import FlagIcon from "@/components/FlagIcon";
 
 const Polygon = dynamic(
   () => import("react-leaflet").then((mod) => mod.Polygon),
@@ -63,27 +71,55 @@ export default function Home() {
     const numFeaturesCompliantForEachRegion =
       countComplianceByRegion(featureData);
 
-      console.log(numFeaturesCompliantForEachRegion)
-
     const polygons = [];
 
-    Object.entries(MASTER_COORDS).forEach(([regionName, regionPolygons]) => {
-      const numCompliant = numFeaturesCompliantForEachRegion[regionName] || 0;
-      const numNonCompliant = totalFeatures - numCompliant;
+    Object.entries(MASTER_COORDS).forEach(([reg, regPolygons]) => {
+      const {
+        compliant: { num: numCompliant, features: featuresCompliant },
+        nonCompliant: { num: numNotCompliant, features: featuresNotCompliant },
+        unknown: { num: numUnknown, features: featuresUnknown }
+      } = numFeaturesCompliantForEachRegion[reg];
 
-      // Calculate the color based on ratio: more compliant -> greener, more non-compliant -> redder
-      const ratio = numCompliant / totalFeatures; // 0 = all non-compliant, 1 = all compliant
-      const color = interpolateColor("#b91919", "#2fba16", ratio);
+      const colorRatio = numCompliant / totalFeatures;
+      const color = interpolateColor("#df1313", "#2ee30e", colorRatio);
 
-      regionPolygons.forEach((coords, polyIdx) => {
+      regPolygons.forEach((coords, polyIdx) => {
         polygons.push(
           <Polygon
-            key={`polygon-${regionName}-${polyIdx}`}
+            key={`polygon-${reg}-${polyIdx}`}
             positions={coords}
-            pathOptions={{ color, weight: 1.5 }}
+            pathOptions={{
+              color,
+              weight: 1.5,
+              fillColor: color,
+              fillOpacity: 0.3,
+            }}
           >
             <Tooltip sticky>
-              {regionName} ({numCompliant}/{totalFeatures} compliant)
+              <div className="text-base flex gap-2 flex-row items-center">
+                <FlagIcon place={reg}/> {regionFullNames[reg]} (
+                {numCompliant} / {totalFeatures} features compliant)
+              </div>
+              <div className="text-sm mt-2">
+                <strong>✅ Compliant ({numCompliant}):</strong>
+                <ul className="list-disc list-inside">
+                  {featuresCompliant.map((feature) => (
+                    <li key={`comp-${feature.id}`}>{feature.feature}</li>
+                  ))}
+                </ul>
+                <strong>❌ Non-Compliant ({numNotCompliant}):</strong>
+                <ul className="list-disc list-inside">
+                  {featuresNotCompliant.map((feature) => (
+                    <li key={`noncomp-${feature.id}`}>{feature.feature}</li>
+                  ))}
+                </ul>
+                <strong>❔ Unknown ({numUnknown}):</strong>
+                <ul className="list-disc list-inside">
+                  {featuresUnknown.map((feature) => (
+                    <li key={`unkn-${feature.id}`}>{feature.feature}</li>
+                  ))}
+                </ul>
+              </div>
             </Tooltip>
           </Polygon>
         );
@@ -121,6 +157,7 @@ export default function Home() {
             >
               {generatePolygons()}
             </Map>
+            <ColorScale />
           </CardContent>
         </Card>
       </div>
