@@ -23,6 +23,15 @@ async function isValidFeature(title, description) {
   }
 }
 
+// Map kb to isCompliant keys
+const kbToRegion = {
+  California_state_law: "california",
+  EU_Digital_Service_Act: "eu",
+  US_reporting_requirements_of_providers: "us",
+  The_Florida_Senate: "florida",
+  Utah_Social_Media_Regulation_Act: "utah"
+};
+
 export async function POST(req) {
   try {
     const body = await req.json();
@@ -35,7 +44,7 @@ export async function POST(req) {
       );
     }
 
-    // Step 0: Check if input is a valid feature
+    // Step 0: Validate feature
     const validFeature = await isValidFeature(title, description);
     if (!validFeature) {
       return NextResponse.json(
@@ -53,15 +62,36 @@ export async function POST(req) {
       );
     }
 
-    // Step 2: Query embedding → retrieve array of JSON docs
-    const documents = await queryEmbedding(embedding);
-    if (!Array.isArray(documents) || documents.length === 0) {
-      console.warn( "No related documents found" );
-      // TODO: we need to add a inconclusive feature here
+    // Step 2: Loop through laws, query embedding per kb
+    const allDocuments = [];
+    const complianceStatus = {
+      us: "unknown",
+      utah: "unknown",
+      florida: "unknown",
+      california: "unknown",
+      eu: "unknown"
+    };
+
+    for (const kb of Object.keys(kbToRegion)) {
+      const docs = await queryEmbedding(embedding, 3, kb); // 3 docs per law
+      if (docs && docs.length > 0) {
+        allDocuments.push(...docs);
+      } else {
+        // No docs found → set unknown for that law
+        complianceStatus[kbToRegion[kb]] = "unknown";
+        console.warn(`No related documents found for ${kb}`);
+      }
     }
 
-    // Step 3: Query LLM with title, description, and documents
-    const llmResult = await queryLLM(title, description, documents);
+    // Step 3: If all documents are missing → bypass LLM entirely
+    if (allDocuments.length === 0) {
+      const reason = "No related documents found for any law";
+      const feature = await storeFeatures(title, description, complianceStatus, reason);
+      return NextResponse.json({ feature, reason });
+    }
+
+    // Step 4: Normal flow → Query LLM with all found documents
+    const llmResult = await queryLLM(title, description, allDocuments);
     if (!llmResult || !llmResult.isCompliant) {
       return NextResponse.json(
         { error: "LLM did not return compliance data" },
@@ -69,14 +99,10 @@ export async function POST(req) {
       );
     }
 
-    // Step 4: Store in Supabase
-    const feature = await storeFeatures(
-      title,
-      description,
-      llmResult.isCompliant
-    );
+    // Step 5: Merge LLM results with unknowns for missing laws
+    const finalCompliance = { ...complianceStatus, ...llmResult.isCompliant };
+    const feature = await storeFeatures(title, description, finalCompliance, llmResult.reason);
 
-    // Step 5: Return feature + reasoning
     return NextResponse.json({
       feature,
       reason: llmResult.reason
