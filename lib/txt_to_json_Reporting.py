@@ -2,6 +2,22 @@ import re
 import json
 import os
 
+def merge_until_fullstop(chunks):
+    """
+    Merge consecutive text chunks until one ends with a full stop.
+    """
+    merged = []
+    buffer = ""
+    for chunk in chunks:
+        buffer += (" " + chunk.strip()).strip()
+        if re.search(r'[.?!]$', buffer):
+            merged.append(buffer.strip())
+            buffer = ""
+    if buffer:  # leftover without punctuation
+        merged.append(buffer.strip())
+    return merged
+
+
 def law_text_to_json(text, kb_title="Reporting_requirements_of_providers"):
     results = []
     current_article = None
@@ -11,6 +27,8 @@ def law_text_to_json(text, kb_title="Reporting_requirements_of_providers"):
     # Regex: top-level markers (a), (b), (c) ...
     top_marker_re = re.compile(r'^\(?([a-z])\)\s*(.*)', re.IGNORECASE)
 
+    temp_entries = []
+
     for line in text.splitlines():
         line = line.strip()
         if not line:
@@ -18,15 +36,9 @@ def law_text_to_json(text, kb_title="Reporting_requirements_of_providers"):
 
         m = top_marker_re.match(line)
         if m:
-            # Save previous section if >= 2 words
-            if current_article and len(" ".join(current_text).split()) >= 2:
-                results.append({
-                    "kb": kb_title,
-                    "article_number": current_article,
-                    "type": section_number or "N/A",
-                    "text": " ".join(current_text).strip(),
-                    "word_count": len(" ".join(current_text).split())
-                })
+            # Save previous section (raw) to temp_entries
+            if current_article and current_text:
+                temp_entries.append((current_article, " ".join(current_text).strip(), section_number or "N/A"))
 
             # Start new section
             current_article = m.group(1)
@@ -37,13 +49,42 @@ def law_text_to_json(text, kb_title="Reporting_requirements_of_providers"):
             current_text.append(line)
 
     # Save last section
-    if current_article and len(" ".join(current_text).split()) >= 2:
+    if current_article and current_text:
+        temp_entries.append((current_article, " ".join(current_text).strip(), section_number or "N/A"))
+
+    # Merge until full stop
+    buffer_marker = None
+    buffer_text = ""
+    buffer_section = None
+
+    for marker, text_chunk, section in temp_entries:
+        if not buffer_marker:
+            buffer_marker = marker
+            buffer_section = section
+
+        buffer_text += (" " + text_chunk).strip()
+
+        if re.search(r'[.?!]$', buffer_text):
+            # Text ends with full stop, save entry
+            results.append({
+                "kb": kb_title,
+                "article_number": buffer_marker,
+                "type": buffer_section,
+                "text": buffer_text.strip(),
+                "word_count": len(buffer_text.split())
+            })
+            buffer_text = ""
+            buffer_marker = None
+            buffer_section = None
+
+    # If any leftover text without full stop, save it anyway
+    if buffer_text:
         results.append({
             "kb": kb_title,
-            "article_number": current_article,
-            "type": section_number or "N/A",
-            "text": " ".join(current_text).strip(),
-            "word_count": len(" ".join(current_text).split())
+            "article_number": buffer_marker or "?",
+            "type": buffer_section or "N/A",
+            "text": buffer_text.strip(),
+            "word_count": len(buffer_text.split())
         })
 
     return results
@@ -144,14 +185,11 @@ Nothing in this section shall be construed as replacing, amending, or otherwise 
 A provider of a report to the CyberTipline under subsection (a)(1) may voluntarily preserve the contents provided in the report (including any comingled content described in paragraph (2)) for longer than 1 year after the submission to the CyberTipline for the purpose of reducing the proliferation of online child sexual exploitation or preventing the online sexual exploitation of children.
 (6)Method of preservation.—
 Not later than 1 year after the date of enactment of this paragraph, a provider of a report to the CyberTipline under subsection (a)(1) shall preserve materials under this subsection in a manner that is consistent with the most recent version of the Cybersecurity Framework developed by the National Institute of Standards and Technology, or any successor thereto.
-(Added Pub. L. 110–401, title V, § 501(a), Oct. 13, 2008, 122 Stat. 4243; amended Pub. L. 115–395, § 2, Dec. 21, 2018, 132 Stat. 5287; Pub. L. 118–59, §§ 3, 4(a), May 7, 2024, 138 Stat. 1016.)"""
+(Added Pub. L. 110–401, title V, § 501(a), Oct. 13, 2008, 122 Stat. 4243; amended Pub. L. 115–395, § 2, Dec. 21, 2018, 132 Stat. 5287; Pub. L. 118–59, §§ 3, 4(a), May 7, 2024, 138 Stat. 1016.)"""  # your long law text here
 
     results = law_text_to_json(text)
 
-    # Ensure directory exists
     os.makedirs("laws_json_file", exist_ok=True)
-
-    # Save JSON file
     output_path = "laws_json_file/Reporting_requirements_of_providers.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=4, ensure_ascii=False)
