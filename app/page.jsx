@@ -1,10 +1,8 @@
 "use client";
 
 import { columns } from "@/components/Columns";
-import { COORDS } from "@/lib/openstreetmap/simplified/coords";
-import { MOCK_DATA } from "@/lib/mock/data";
 import { FeaturesTable } from "@/components/FeaturesTable";
-import { Button, buttonVariants } from "@/components/ui/Button";
+import { buttonVariants } from "@/components/ui/Button";
 import {
   Card,
   CardContent,
@@ -12,12 +10,13 @@ import {
   CardHeader,
   CardTitle
 } from "@/components/ui/Card";
-import { MOCK_FEATURE_DATA } from "@/lib/mock";
 import { Loader2, Plus } from "lucide-react";
 import dynamic from "next/dynamic";
-import { useMemo } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
+import { cn, countComplianceByRegion, interpolateColor } from "@/lib/utils";
+import { supabaseClient } from "@/lib/supabase/client";
+import { MASTER_COORDS } from "@/lib/openstreetmap/simplified/coords";
 
 const Polygon = dynamic(
   () => import("react-leaflet").then((mod) => mod.Polygon),
@@ -28,8 +27,24 @@ const Tooltip = dynamic(
   { ssr: false }
 );
 
+const position = [52.28053, -43.56581];
+
 export default function Home() {
-   const position = [52.28053, -43.56581];
+  const [featureData, setFeatureData] = useState(null);
+
+  const fetchData = useCallback(async () => {
+    try {
+      const response = await supabaseClient.from("features").select("*");
+      console.log(response.data);
+      setFeatureData(response.data);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  }, []);
+
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
 
   const Map = useMemo(
     () =>
@@ -41,60 +56,42 @@ export default function Home() {
     []
   );
 
-  const generatePolygons = (data) => {
-    return data.flatMap((reg, idx) => {
-      const allPolygons = [];
+  function generatePolygons() {
+    if (!featureData) return null;
 
-      const addPolygonWithTooltip = (coords, color, label, keyPrefix) => {
-        allPolygons.push(
+    const totalFeatures = featureData.length;
+    const numFeaturesCompliantForEachRegion =
+      countComplianceByRegion(featureData);
+
+      console.log(numFeaturesCompliantForEachRegion)
+
+    const polygons = [];
+
+    Object.entries(MASTER_COORDS).forEach(([regionName, regionPolygons]) => {
+      const numCompliant = numFeaturesCompliantForEachRegion[regionName] || 0;
+      const numNonCompliant = totalFeatures - numCompliant;
+
+      // Calculate the color based on ratio: more compliant -> greener, more non-compliant -> redder
+      const ratio = numCompliant / totalFeatures; // 0 = all non-compliant, 1 = all compliant
+      const color = interpolateColor("#b91919", "#2fba16", ratio);
+
+      regionPolygons.forEach((coords, polyIdx) => {
+        polygons.push(
           <Polygon
-            key={keyPrefix}
-            positions={coords} // [lat, lon] array
+            key={`polygon-${regionName}-${polyIdx}`}
+            positions={coords}
             pathOptions={{ color, weight: 1.5 }}
           >
-            {/* Tooltip in the middle of the polygon */}
-            <Tooltip sticky>{label}</Tooltip>
+            <Tooltip sticky>
+              {regionName} ({numCompliant}/{totalFeatures} compliant)
+            </Tooltip>
           </Polygon>
         );
-      };
-
-      // Compliant regions
-      if (reg.regionsCompliant?.length > 0) {
-        reg.regionsCompliant.forEach((regionName, regionIdx) => {
-          const polygons = COORDS[regionName];
-          if (!polygons) return;
-
-          polygons.forEach((coords, polyIdx) => {
-            addPolygonWithTooltip(
-              coords,
-              "#2fba16",
-              regionName, // text in tooltip
-              `polygon-${idx}-compliant-${regionIdx}-${polyIdx}`
-            );
-          });
-        });
-      }
-
-      // Non-compliant regions
-      if (reg.regionsNotCompliant?.length > 0) {
-        reg.regionsNotCompliant.forEach((regionName, regionIdx) => {
-          const polygons = COORDS[regionName];
-          if (!polygons) return;
-
-          polygons.forEach((coords, polyIdx) => {
-            addPolygonWithTooltip(
-              coords,
-              "#b91919",
-              regionName, // text in tooltip
-              `polygon-${idx}-noncompliant-${regionIdx}-${polyIdx}`
-            );
-          });
-        });
-      }
-
-      return allPolygons;
+      });
     });
-  };
+
+    return polygons;
+  }
 
   return (
     <section
@@ -122,7 +119,7 @@ export default function Home() {
               position={position}
               zoom={3}
             >
-              {generatePolygons(MOCK_DATA)}
+              {generatePolygons()}
             </Map>
           </CardContent>
         </Card>
@@ -143,7 +140,7 @@ export default function Home() {
           </Link>
         </span>
 
-        <FeaturesTable columns={columns} data={MOCK_FEATURE_DATA} />
+        <FeaturesTable columns={columns} data={featureData} />
       </div>
     </section>
   );

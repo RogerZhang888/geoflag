@@ -1,5 +1,7 @@
 "use client";
 
+import { Badge } from "./ui/badge";
+
 export const columns = [
   {
     accessorKey: "id",
@@ -33,6 +35,31 @@ export const columns = [
   },
   {
     accessorKey: "isCompliant",
-    header: "Is Compliant"
+    header: "Compliance",
+   cell: ({ row }) => {
+
+      const value = row.getValue("isCompliant");
+      const compliance = 
+         value === "true" 
+            ? true 
+            : value === "false" 
+               ? false 
+               : JSON.parse(value); // object: { us: true, eu: false ... }
+
+      return (
+      <div
+        className="max-w-[250px] truncate"
+        title={row.getValue("isCompliant")}
+      >
+         <Badge 
+            variant={
+               compliance === true ? "success" : compliance === false ? "destructive" : "warning"
+            }
+         >
+            {compliance === true ? "Total" : compliance === false ? "None" : "Partial"}
+         </Badge>
+      </div>
+    )
+   }
   }
 ];
