@@ -99,7 +99,7 @@ export default function Home() {
                 <FlagIcon place={reg}/> {regionFullNames[reg]} (
                 {numCompliant} / {totalFeatures} features compliant)
               </div>
-              <div className="text-sm mt-2">
+              <div className="mt-2" style={{fontSize: "10px"}}>
                 <strong>✅ Compliant ({numCompliant}):</strong>
                 <ul className="list-disc list-inside">
                   {featuresCompliant.map((feature) => (
