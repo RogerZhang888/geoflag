@@ -69,18 +69,31 @@ export const columns = [
               </Badge>
             </TooltipTrigger>
             <TooltipContent className="flex flex-col gap-2">
-              {Object.entries(compDat).sort((a, b) => a[0] > b[0]).map(([r, c], idx) => (
-                <div key={idx} className="text-sm flex flex-row items-center gap-2">
-                  <FlagIcon place={r}/> {regionFullNames[r]}:{" "}
-                  <span
-                    className={
-                      c === "true" ? "text-green-600" : c === "false" ? "text-red-600" : "text-gray-600"
-                    }
+              {Object.entries(compDat)
+                .sort((a, b) => a[0] > b[0])
+                .map(([r, c], idx) => (
+                  <div
+                    key={idx}
+                    className="text-sm flex flex-row items-center gap-2"
                   >
-                    {c === "true" ? "Compliant" : c === "false" ? "Non-Compliant" : "Unknown"}
-                  </span>
-                </div>
-              ))}
+                    <FlagIcon place={r} /> {regionFullNames[r]}:{" "}
+                    <span
+                      className={
+                        c === "true"
+                          ? "text-[#217005]"
+                          : c === "false"
+                            ? "text-[#c0123c]"
+                            : "text-gray-600"
+                      }
+                    >
+                      {c === "true"
+                        ? "Compliant"
+                        : c === "false"
+                          ? "Non-Compliant"
+                          : "Unknown"}
+                    </span>
+                  </div>
+                ))}
             </TooltipContent>
           </Tooltip>
         </div>
