@@ -11,11 +11,11 @@ import FlagIcon from "./FlagIcon";
 
 export const columns = [
   {
-    accessorKey: "id",
-    header: "ID",
+    accessorKey: "index",
+    header: "#",
     cell: ({ row }) => (
       <code className="font-mono text-gray-600 bg-gray-200 px-2 py-1 rounded text-xs font-medium">
-        {row.original.id}
+        {row.index + 1}
       </code>
     )
   },
@@ -72,30 +72,29 @@ export const columns = [
               </Badge>
             </TooltipTrigger>
             <TooltipContent className="flex flex-col gap-2">
-              {Object.entries(compDat)
-                .map(([r, c], idx) => (
-                  <div
-                    key={idx}
-                    className="text-sm flex flex-row items-center gap-2"
-                  >
-                    <FlagIcon place={r} /> {regionFullNames[r]}:{" "}
-                    <span
-                      className={
-                        c === true
-                          ? "text-[#217005]"
-                          : c === false
-                            ? "text-[#c0123c]"
-                            : "text-gray-600"
-                      }
-                    >
-                      {c === true
-                        ? "Compliant"
+              {Object.entries(compDat).map(([r, c], idx) => (
+                <div
+                  key={idx}
+                  className="text-sm flex flex-row items-center gap-2"
+                >
+                  <FlagIcon place={r} /> {regionFullNames[r]}:{" "}
+                  <span
+                    className={
+                      c === true
+                        ? "text-[#217005]"
                         : c === false
-                          ? "Non-Compliant"
-                          : "Unknown"}
-                    </span>
-                  </div>
-                ))}
+                          ? "text-[#c0123c]"
+                          : "text-gray-600"
+                    }
+                  >
+                    {c === true
+                      ? "Compliant"
+                      : c === false
+                        ? "Non-Compliant"
+                        : "Unknown"}
+                  </span>
+                </div>
+              ))}
             </TooltipContent>
           </Tooltip>
         </div>
