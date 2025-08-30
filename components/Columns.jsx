@@ -46,6 +46,7 @@ export const columns = [
     cell: ({ row }) => {
       const v = row.getValue("isCompliant");
       const compDat = cleanIsCompliantData(v);
+
       const isAllCompliant = Object.values(compDat).every((v) => v === true);
       const isNoneCompliant = Object.values(compDat).every((v) => v === false);
 
@@ -72,7 +73,6 @@ export const columns = [
             </TooltipTrigger>
             <TooltipContent className="flex flex-col gap-2">
               {Object.entries(compDat)
-                .sort((a, b) => b[0] - a[0])
                 .map(([r, c], idx) => (
                   <div
                     key={idx}
@@ -81,26 +81,16 @@ export const columns = [
                     <FlagIcon place={r} /> {regionFullNames[r]}:{" "}
                     <span
                       className={
-                        c === "true"
-                          ? "text-green-600"
-                          : c === "false"
-                            ? "text-red-600"
-                            : "text-gray-600"
-                      }
-                    />
-                    <FlagIcon place={r} /> {regionFullNames[r]}:{" "}
-                    <span
-                      className={
-                        c === "true"
+                        c === true
                           ? "text-[#217005]"
-                          : c === "false"
+                          : c === false
                             ? "text-[#c0123c]"
                             : "text-gray-600"
                       }
                     >
-                      {c === "true"
+                      {c === true
                         ? "Compliant"
-                        : c === "false"
+                        : c === false
                           ? "Non-Compliant"
                           : "Unknown"}
                     </span>

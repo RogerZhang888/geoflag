@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -37,7 +37,8 @@ const FeatureSchema = z.object({
 });
 
 export default function FeatureForm() {
-  const router = useRouter();
+
+  const [reason, setReason] = useState(null);
 
   const form = useForm({
     resolver: zodResolver(FeatureSchema),
@@ -50,21 +51,23 @@ export default function FeatureForm() {
   });
 
   async function submithandler(data) {
+
+    setReason(null)
+
+    console.log(
+      `Attempting to find compliance data for feature 
+      "${data.title}" with description 
+      "${data.description}"`
+    );
+
     try {
-      console.log(
-        `Attempting to find compliance data for 
-        feature "${data.title}" with description ${data.description}`
-      );
 
       const res = await axios.post("/api/feature", data);
 
-      const c = JSON.parse(res.data.isCompliant);
+      setReason(res.data.reason)
 
-      toast.success("Compliance data has been generated");
+      toast.success("Compliance data has been successfully generated");
 
-      console.log("Compliance data:", c);
-
-      router.push("/");
     } catch (error) {
       console.error("Error when finding compliance data for feature:", error);
       if (axios.isAxiosError(error)) {
@@ -119,40 +122,53 @@ export default function FeatureForm() {
               )}
             />
 
-            {/* Submit button */}
-            <Button
-              type="submit"
-              className="w-30 flex justify-center items-center hover:cursor-pointer disabled:cursor-default"
-              disabled={!form.formState.isValid || form.formState.isSubmitting}
-            >
-              {form.formState.isSubmitting ? (
-                <Loader2 className="animate-spin" strokeWidth={3} />
-              ) : (
-                "Submit"
-              )}
-            </Button>
+            <div className="flex flex-row gap-3">
+              <Button
+                type="submit"
+                className="w-30 flex justify-center items-center hover:cursor-pointer disabled:cursor-default"
+                disabled={!form.formState.isValid || form.formState.isSubmitting}
+              >
+                {form.formState.isSubmitting ? (
+                  <Loader2 className="animate-spin" strokeWidth={3} />
+                ) : (
+                  "Submit"
+                )}
+              </Button>
+
+              <Button 
+                type="button"
+                className="w-30 flex justify-center items-center hover:cursor-pointer disabled:cursor-default"
+                onClick={() => form.reset()}
+              >
+                Clear
+              </Button>
+            </div>
           </form>
         </Form>
       </div>
 
-      <div className="flex flex-row justify-start gap-2 lg:w-1/2 w-full">
-        <div className="text-primary font-bold text-lg flex gap-2 whitespace-nowrap grayscale opacity-80">
-          <span className="relative w-[30px] h-[30px]">
-            <Image
-              src="/logo/logo.png"
-              alt="logo"
-              sizes="40px"
-              fill
-              className="object-contain"
-            />
-          </span>
-          GeoFlag AI:
-        </div>
+      {reason && 
+        <div className="flex flex-row justify-start gap-2 lg:w-1/2 w-full">
 
-        <div className="text-md text-slate-500">
-          <TypingAnim text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo id, iure quas, recusandae voluptatem dolore distinctio nobis quae blanditiis magni eos mollitia accusantium eaque quisquam eius aliquam, nihil provident consequuntur?" />
+          <div className="text-primary font-bold text-lg flex gap-2 whitespace-nowrap grayscale opacity-80">
+            <span className="relative w-[30px] h-[30px]">
+              <Image
+                src="/logo/logo.png"
+                alt="logo"
+                sizes="40px"
+                fill
+                className="object-contain"
+              />
+            </span>
+            GeoFlag AI:
+          </div>
+
+          <div className="text-md text-slate-500">
+            <TypingAnim text={reason} />
+          </div>
         </div>
-      </div>
+      }
+
     </div>
   );
 }

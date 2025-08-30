@@ -43,7 +43,6 @@ export default function Home() {
   const fetchData = useCallback(async () => {
     try {
       const response = await supabaseClient.from("features").select("*");
-      console.log(response.data);
       setFeatureData(response.data);
     } catch (error) {
       console.error("Error fetching data:", error);
