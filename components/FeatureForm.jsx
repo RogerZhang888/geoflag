@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import { toast } from "sonner";
 import axios from "axios";
 import { useRouter } from "next/navigation";
@@ -34,8 +34,7 @@ const FeatureSchema = z.object({
 });
 
 export default function FeatureForm() {
-
-   const router = useRouter();
+  const router = useRouter();
 
   const form = useForm({
     resolver: zodResolver(FeatureSchema),
@@ -65,7 +64,6 @@ export default function FeatureForm() {
       console.log("Compliance data:", c);
 
       router.push("/");
-
     } catch (error) {
       console.error("Error when finding compliance data for feature:", error);
       toast.error("Compliance data could not be generated. Try again.");

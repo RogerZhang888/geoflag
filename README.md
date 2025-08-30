@@ -2,7 +2,7 @@
 
 **NAME** is a private LLM-powered compliance dashboard that helps global apps navigate complex region-specific regulations. With an interactive world map, polygon-based compliance visualization, and feature management, GeoComply ensures that legal obligations are visible, auditable, and actionable in real-time.
 
-We are a group of CS students from NUS RC4 LEO and this is our submission for TikTok TechJam 2025.
+We are a group of Y1 CS students from NUS RC4 LEO and this is our submission for TikTok TechJam 2025.
 
 ---
 
