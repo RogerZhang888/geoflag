@@ -1,6 +1,9 @@
 "use client";
 
+import { getFlagEmoji, regionFullNames } from "@/lib/utils";
 import { Badge } from "./ui/badge";
+import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
+import FlagIcon from "./FlagIcon";
 
 export const columns = [
   {
@@ -40,28 +43,46 @@ export const columns = [
       const v = row.getValue("isCompliant");
       const compDat = JSON.parse(v);
       const isAllCompliant = Object.values(compDat).every((v) => v === "true");
-      const isNoneCompliant = Object.values(compDat).every((v) => v === "false");
+      const isNoneCompliant = Object.values(compDat).every(
+        (v) => v === "false"
+      );
 
       return (
-        <div
-          className="max-w-[250px] truncate"
-          title={v}
-        >
-          <Badge
-            variant={
-              isAllCompliant
-                ? "success"
-                : isNoneCompliant
-                  ? "destructive"
-                  : "warning"
-            }
-          >
-            {isAllCompliant
-              ? "Total"
-              : isNoneCompliant
-                ? "None"
-                : "Partial"}
-          </Badge>
+        <div className="max-w-[250px] text-center">
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Badge
+                className="w-15"
+                variant={
+                  isAllCompliant
+                    ? "success"
+                    : isNoneCompliant
+                      ? "destructive"
+                      : "warning"
+                }
+              >
+                {isAllCompliant
+                  ? "Total"
+                  : isNoneCompliant
+                    ? "None"
+                    : "Partial"}
+              </Badge>
+            </TooltipTrigger>
+            <TooltipContent className="flex flex-col gap-2">
+              {Object.entries(compDat).sort((a, b) => a[0] > b[0]).map(([r, c], idx) => (
+                <div key={idx} className="text-sm flex flex-row items-center gap-2">
+                  <FlagIcon place={r}/> {regionFullNames[r]}:{" "}
+                  <span
+                    className={
+                      c === "true" ? "text-green-600" : c === "false" ? "text-red-600" : "text-gray-600"
+                    }
+                  >
+                    {c === "true" ? "Compliant" : c === "false" ? "Non-Compliant" : "Unknown"}
+                  </span>
+                </div>
+              ))}
+            </TooltipContent>
+          </Tooltip>
         </div>
       );
     }
@@ -70,12 +91,9 @@ export const columns = [
     accessorKey: "reason",
     header: "Reason",
     cell: ({ row }) => (
-      <div
-        className="max-w-[250px] truncate"
-        title={row.getValue("reason")}
-      >
+      <div className="max-w-[250px] truncate" title={row.getValue("reason")}>
         {row.getValue("reason")}
       </div>
     )
-  },
+  }
 ];

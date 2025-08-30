@@ -24,6 +24,7 @@ import {
 import { supabaseClient } from "@/lib/supabase/client";
 import { MASTER_COORDS } from "@/lib/openstreetmap/simplified/coords";
 import ColorScale from "@/components/ColorScale";
+import FlagIcon from "@/components/FlagIcon";
 
 const Polygon = dynamic(
   () => import("react-leaflet").then((mod) => mod.Polygon),
@@ -72,20 +73,20 @@ export default function Home() {
 
     const polygons = [];
 
-    Object.entries(MASTER_COORDS).forEach(([regionName, regionPolygons]) => {
+    Object.entries(MASTER_COORDS).forEach(([reg, regPolygons]) => {
       const {
         compliant: { num: numCompliant, features: featuresCompliant },
         nonCompliant: { num: numNotCompliant, features: featuresNotCompliant },
         unknown: { num: numUnknown, features: featuresUnknown }
-      } = numFeaturesCompliantForEachRegion[regionName];
+      } = numFeaturesCompliantForEachRegion[reg];
 
       const colorRatio = numCompliant / totalFeatures;
       const color = interpolateColor("#df1313", "#2ee30e", colorRatio);
 
-      regionPolygons.forEach((coords, polyIdx) => {
+      regPolygons.forEach((coords, polyIdx) => {
         polygons.push(
           <Polygon
-            key={`polygon-${regionName}-${polyIdx}`}
+            key={`polygon-${reg}-${polyIdx}`}
             positions={coords}
             pathOptions={{
               color,
@@ -95,8 +96,8 @@ export default function Home() {
             }}
           >
             <Tooltip sticky>
-              <div className="text-base">
-                {getFlagEmoji(regionName)} {regionFullNames[regionName]} (
+              <div className="text-base flex gap-2 flex-row items-center">
+                <FlagIcon place={reg}/> {regionFullNames[reg]} (
                 {numCompliant} / {totalFeatures} features compliant)
               </div>
               <div className="text-sm mt-2">
