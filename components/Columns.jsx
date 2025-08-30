@@ -36,30 +36,46 @@ export const columns = [
   {
     accessorKey: "isCompliant",
     header: "Compliance",
-   cell: ({ row }) => {
-
-      const value = row.getValue("isCompliant");
-      const compliance = 
-         value === "true" 
-            ? true 
-            : value === "false" 
-               ? false 
-               : JSON.parse(value); // object: { us: true, eu: false ... }
+    cell: ({ row }) => {
+      const v = row.getValue("isCompliant");
+      const compDat = JSON.parse(v);
+      const isAllCompliant = Object.values(compDat).every((v) => v === "true");
+      const isNoneCompliant = Object.values(compDat).every((v) => v === "false");
 
       return (
+        <div
+          className="max-w-[250px] truncate"
+          title={v}
+        >
+          <Badge
+            variant={
+              isAllCompliant
+                ? "success"
+                : isNoneCompliant
+                  ? "destructive"
+                  : "warning"
+            }
+          >
+            {isAllCompliant
+              ? "Total"
+              : isNoneCompliant
+                ? "None"
+                : "Partial"}
+          </Badge>
+        </div>
+      );
+    }
+  },
+  {
+    accessorKey: "reason",
+    header: "Reason",
+    cell: ({ row }) => (
       <div
         className="max-w-[250px] truncate"
-        title={row.getValue("isCompliant")}
+        title={row.getValue("reason")}
       >
-         <Badge 
-            variant={
-               compliance === true ? "success" : compliance === false ? "destructive" : "warning"
-            }
-         >
-            {compliance === true ? "Total" : compliance === false ? "None" : "Partial"}
-         </Badge>
+        {row.getValue("reason")}
       </div>
     )
-   }
-  }
+  },
 ];
