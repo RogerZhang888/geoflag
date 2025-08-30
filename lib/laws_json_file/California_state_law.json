@@ -3,322 +3,294 @@
         "kb": "California_state_law",
         "article_number": "a",
         "type": "SECTION 1",
-        "text": ". The Legislature finds and declares the following: a Social media provides an important tool for communication and information sharing. Approximately 95 percent of 13- to 17-year-olds, inclusive, say that they use at least one social media platform, and more than one-third report using social media almost constantly.",
-        "word_count": 48
+        "text": "Social media provides an important tool for communication and information sharing. Approximately 95 percent of 13- to 17-year-olds, inclusive, say that they use at least one social media platform, and more than one-third report using social media almost constantly.",
+        "word_count": 39
     },
     {
         "kb": "California_state_law",
         "article_number": "b",
         "type": "SECTION 1",
-        "text": "b However, some social media platforms have evolved to include addictive features, including the algorithmic delivery of content and other design features, that pose a significant risk of harm to the mental health and well-being of children and adolescents. 91 —3-— Ch. 321",
-        "word_count": 43
+        "text": "However, some social media platforms have evolved to include addictive features, including the algorithmic delivery of content and other design features, that pose a significant risk of harm to the mental health and well-being of children and adolescents. 91 —3-— Ch. 321",
+        "word_count": 42
     },
     {
         "kb": "California_state_law",
         "article_number": "c",
         "type": "SECTION 1",
-        "text": "c As the United States Surgeon General has reported, recent evidence has identified “reasons for concern” about social media usage by children and adolescents. This evidence includes a study concluding that the risk of poor mental health outcomes doubles for children and adolescents who use social media at least three hours a day and research finding that social media usage is linked to a variety of negative health outcomes, including low self-esteem and disordered eating, for adolescent girls.",
-        "word_count": 78
+        "text": "As the United States Surgeon General has reported, recent evidence has identified “reasons for concern” about social media usage by children and adolescents. This evidence includes a study concluding that the risk of poor mental health outcomes doubles for children and adolescents who use social media at least three hours a day and research finding that social media usage is linked to a variety of negative health outcomes, including low self-esteem and disordered eating, for adolescent girls.",
+        "word_count": 77
     },
     {
         "kb": "California_state_law",
         "article_number": "d",
         "type": "SECTION 1",
-        "text": "d Heavier usage of social media also leads to less healthy sleep patterns and sleep quality, which can in turn exacerbate both physical and mental health problems.",
-        "word_count": 27
+        "text": "Heavier usage of social media also leads to less healthy sleep patterns and sleep quality, which can in turn exacerbate both physical and mental health problems.",
+        "word_count": 26
     },
     {
         "kb": "California_state_law",
         "article_number": "e",
         "type": "SECTION 1",
-        "text": "e Further, social media usage is more strongly associated with negative mental health outcomes, including depressive symptoms and self-harm behaviors, than is consumption of other forms of media such as television or electronic games.",
-        "word_count": 34
+        "text": "Further, social media usage is more strongly associated with negative mental health outcomes, including depressive symptoms and self-harm behaviors, than is consumption of other forms of media such as television or electronic games.",
+        "word_count": 33
     },
     {
         "kb": "California_state_law",
         "article_number": "f",
         "type": "SECTION 1",
-        "text": "f Both California and the country as a whole are facing an ongoing youth mental health crisis, with rates of adolescent suicides, depressive episodes, and feelings of sadness and hopelessness on the rise in recent years.",
-        "word_count": 36
+        "text": "Both California and the country as a whole are facing an ongoing youth mental health crisis, with rates of adolescent suicides, depressive episodes, and feelings of sadness and hopelessness on the rise in recent years.",
+        "word_count": 35
     },
     {
         "kb": "California_state_law",
         "article_number": "g",
         "type": "SECTION 1",
-        "text": "g For these reasons, it is essential that California act to ensure that social media platforms obtain parental consent before exposing children and adolescents to harmful and addictive social media features.",
-        "word_count": 31
+        "text": "For these reasons, it is essential that California act to ensure that social media platforms obtain parental consent before exposing children and adolescents to harmful and addictive social media features.",
+        "word_count": 30
     },
     {
         "kb": "California_state_law",
         "article_number": "a",
         "type": "Section 27000",
-        "text": ") is added to Division 20 of the Health and Safety Code, to read: CHAPTER 24. PROTECTING Our Kips FROM SociAL MepIA ADDICTION Act 27000. This chapter shall be known, and may be cited, as the Protecting Our Kids from Social Media Addiction Act. 27000.5. For purposes of this chapter, the following terms have the following meanings: a “Addictive feed” means an internet website, online service, online application, or mobile application, or a portion thereof, in which multiple pieces of media generated or shared by users are, either concurrently or sequentially, recommended, selected, or prioritized for display to a user based, in whole or in part, on information provided by the user, or otherwise associated with the user or the user’s device, unless any of the following conditions are met, alone or in combination with one another:",
-        "word_count": 137
+        "text": "“Addictive feed” means an internet website, online service, online application, or mobile application, or a portion thereof, in which multiple pieces of media generated or shared by users are, either concurrently or sequentially, recommended, selected, or prioritized for display to a user based, in whole or in part, on information provided by the user, or otherwise associated with the user or the user’s device, unless any of the following conditions are met, alone or in combination with one another:",
+        "word_count": 80
     },
     {
         "kb": "California_state_law",
         "article_number": "1",
         "type": "Section 27000",
-        "text": "1 The information is not persistently associated with the user or user’s device, and does not concern the user’s previous interactions with media generated or shared by others.",
-        "word_count": 28
+        "text": "The information is not persistently associated with the user or user’s device, and does not concern the user’s previous interactions with media generated or shared by others.",
+        "word_count": 29
     },
     {
         "kb": "California_state_law",
         "article_number": "2",
         "type": "Section 27000",
-        "text": "2 The information consists of search terms that are not persistently associated with the user or user’s device.",
+        "text": "The information consists of search terms that are not persistently associated with the user or user’s device.",
         "word_count": 18
     },
     {
         "kb": "California_state_law",
         "article_number": "3",
         "type": "Section 27000",
-        "text": "3 The information consists of user-selected privacy or accessibility settings, technical information concerning the user’s device, or device communications or signals concerning whether the user is a minor. 91 Ch. 321 —4—",
+        "text": "The information consists of user-selected privacy or accessibility settings, technical information concerning the user’s device, or device communications or signals concerning whether the user is a minor. 91 Ch. 321 —4—",
         "word_count": 32
     },
     {
         "kb": "California_state_law",
         "article_number": "4",
         "type": "Section 27000",
-        "text": "4 The user expressly and unambiguously requested the specific media or media by the author, creator, or poster of the media, or the blocking, prioritization, or deprioritization of such media, provided that the media is not recommended, selected, or prioritized for display based, in whole or in part, on other information associated with the user or the user’s device, except as otherwise permitted by this chapter and, in the case of audio or video content, is not automatically played.",
+        "text": "The user expressly and unambiguously requested the specific media or media by the author, creator, or poster of the media, or the blocking, prioritization, or deprioritization of such media, provided that the media is not recommended, selected, or prioritized for display based, in whole or in part, on other information associated with the user or the user’s device, except as otherwise permitted by this chapter and, in the case of audio or video content, is not automatically played.",
         "word_count": 79
     },
     {
         "kb": "California_state_law",
         "article_number": "5",
         "type": "Section 27000",
-        "text": "5 The media consists of direct, private communications between users.",
-        "word_count": 10
+        "text": "The media consists of direct, private communications between users.",
+        "word_count": 9
     },
     {
         "kb": "California_state_law",
         "article_number": "6",
         "type": "Section 27000",
-        "text": "6 The media recommended, selected, or prioritized for display is exclusively the next media in a preexisting sequence from the same author, creator, poster, or source and, in the case of audio or video content, is not automatically played.",
-        "word_count": 39
+        "text": "The media recommended, selected, or prioritized for display is exclusively the next media in a preexisting sequence from the same author, creator, poster, or source and, in the case of audio or video content, is not automatically played.",
+        "word_count": 38
     },
     {
         "kb": "California_state_law",
         "article_number": "7",
         "type": "Section 27000",
-        "text": "7 The recommendation, selection, or prioritization of the media is necessary to comply with this chapter or any regulations promulgated pursuant to this chapter.",
-        "word_count": 24
-    },
-    {
-        "kb": "California_state_law",
-        "article_number": "b",
-        "type": "Section 27000",
-        "text": "b",
-        "word_count": 1
+        "text": "The recommendation, selection, or prioritization of the media is necessary to comply with this chapter or any regulations promulgated pursuant to this chapter.",
+        "word_count": 23
     },
     {
         "kb": "California_state_law",
         "article_number": "1",
         "type": "Section 27000",
-        "text": "1 “Addictive internet-based service or application” means an internet website, online service, online application, or mobile application, including, but not limited to, a “social media platform” as defined in",
-        "word_count": 29
+        "text": "“Addictive internet-based service or application” means an internet website, online service, online application, or mobile application, including, but not limited to, a “social media platform” as defined in",
+        "word_count": 28
     },
     {
         "kb": "California_state_law",
         "article_number": "2",
         "type": "Section 22675",
-        "text": "of the Business and Professions Code, that offers users or provides users with an addictive feed as a significant part of the service provided by that internet website, online service, online application, or mobile application. 2 “Addictive internet-based service or application” does not apply to either of the following: (A) An internet website, online service, online application, or mobile application for which interactions between users are limited to commercial transactions or to consumer reviews of products, sellers, services, events, or places, or any combination thereof. (B) An internet website, online service, online application, or mobile application that operates a feed for the primary purpose of cloud storage.",
-        "word_count": 107
+        "text": "“Addictive internet-based service or application” does not apply to either of the following: (A) An internet website, online service, online application, or mobile application for which interactions between users are limited to commercial transactions or to consumer reviews of products, sellers, services, events, or places, or any combination thereof. (B) An internet website, online service, online application, or mobile application that operates a feed for the primary purpose of cloud storage.",
+        "word_count": 71
     },
     {
         "kb": "California_state_law",
         "article_number": "c",
         "type": "Section 22675",
-        "text": "c “Media” means text, audio, an image, or a video.",
-        "word_count": 10
+        "text": "“Media” means text, audio, an image, or a video.",
+        "word_count": 9
     },
     {
         "kb": "California_state_law",
         "article_number": "d",
         "type": "Section 22675",
-        "text": "d “Minor” means an individual under 18 years of age who is located in the State of California.",
-        "word_count": 18
+        "text": "“Minor” means an individual under 18 years of age who is located in the State of California.",
+        "word_count": 17
     },
     {
         "kb": "California_state_law",
         "article_number": "e",
         "type": "Section 22675",
-        "text": "e “Operator” means a person who operates or provides an internet website, an online service, an online application, or a mobile application.",
-        "word_count": 22
+        "text": "“Operator” means a person who operates or provides an internet website, an online service, an online application, or a mobile application.",
+        "word_count": 21
     },
     {
         "kb": "California_state_law",
         "article_number": "f",
         "type": "Section 22675",
-        "text": "f “Parent” means a parent or guardian, including as defined in regulations promulgated pursuant to this chapter.",
-        "word_count": 17
+        "text": "“Parent” means a parent or guardian, including as defined in regulations promulgated pursuant to this chapter.",
+        "word_count": 16
     },
     {
         "kb": "California_state_law",
         "article_number": "g",
         "type": "Section 22675",
-        "text": "g “User” means a person who uses an internet website, online service, online application, or mobile application. “User” does not include the operator or a person acting as an agent of the operator. 27001.",
-        "word_count": 34
+        "text": "“User” means a person who uses an internet website, online service, online application, or mobile application. “User” does not include the operator or a person acting as an agent of the operator. 27001.",
+        "word_count": 33
     },
     {
         "kb": "California_state_law",
         "article_number": "a",
         "type": "Section 22675",
-        "text": "a It shall be unlawful for the operator of an addictive internet-based service or application to provide an addictive feed to a user unless either of the following is met:",
-        "word_count": 30
+        "text": "It shall be unlawful for the operator of an addictive internet-based service or application to provide an addictive feed to a user unless either of the following is met:",
+        "word_count": 29
     },
     {
         "kb": "California_state_law",
         "article_number": "1",
         "type": "Section 22675",
-        "text": "1 (A) Except as provided in subparagraph (B), the operator does not have actual knowledge that the user is a minor. (B) Commencing January 1, 2027, the operator has reasonably determined that the user is not a minor, including pursuant to regulations promulgated by the Attorney General. 91 —5— Ch. 321",
-        "word_count": 51
+        "text": "(A) Except as provided in subparagraph (B), the operator does not have actual knowledge that the user is a minor. (B) Commencing January 1, 2027, the operator has reasonably determined that the user is not a minor, including pursuant to regulations promulgated by the Attorney General. 91",
+        "word_count": 47
     },
     {
         "kb": "California_state_law",
         "article_number": "2",
         "type": "Section 22675",
-        "text": "2 The operator has obtained verifiable parental consent to provide an addictive feed to the user who is a minor.",
-        "word_count": 20
+        "text": "The operator has obtained verifiable parental consent to provide an addictive feed to the user who is a minor.",
+        "word_count": 19
     },
     {
         "kb": "California_state_law",
         "article_number": "b",
         "type": "Section 22675",
-        "text": "b Information collected for the purpose of determining a user’s age or verifying parental consent pursuant to this chapter shall not be used for any purpose other than compliance with this chapter or with another applicable law. The information collected shall be deleted immediately after it is used to determine a user’s age or to verify parental consent, except as necessary to comply with state or federal law. 27002.",
-        "word_count": 69
-    },
-    {
-        "kb": "California_state_law",
-        "article_number": "a",
-        "type": "Section 22675",
-        "text": "a",
-        "word_count": 1
+        "text": "Information collected for the purpose of determining a user’s age or verifying parental consent pursuant to this chapter shall not be used for any purpose other than compliance with this chapter or with another applicable law. The information collected shall be deleted immediately after it is used to determine a user’s age or to verify parental consent, except as necessary to comply with state or federal law. 27002.",
+        "word_count": 70
     },
     {
         "kb": "California_state_law",
         "article_number": "1",
         "type": "Section 22675",
-        "text": "1 Except as provided in paragraph",
-        "word_count": 6
+        "text": "Except as provided in paragraph (2), it shall be unlawful for the operator of an addictive internet-based service or application, between the hours of 12 a.m. and 6 a.m., in the user’s local time zone, and between the hours of 8 a.m. and 3 p.m., from Monday through Friday from September through May in the user’s local time zone, to send notifications to a user if the operator has actual knowledge that the user is a minor unless the operator has obtained verifiable parental consent to send those notifications.",
+        "word_count": 95
     },
     {
         "kb": "California_state_law",
         "article_number": "2",
         "type": "Section 22675",
-        "text": "2 , it shall be unlawful for the operator of an addictive internet-based service or application, between the hours of 12 a.m. and 6 a.m., in the user’s local time zone, and between the hours of 8 a.m. and 3 p.m., from Monday through Friday from September through May in the user’s local time zone, to send notifications to a user if the operator has actual knowledge that the user is a minor unless the operator has obtained verifiable parental consent to send those notifications.",
-        "word_count": 85
-    },
-    {
-        "kb": "California_state_law",
-        "article_number": "2",
-        "type": "Section 22675",
-        "text": "2 Commencing January 1, 2027, it shall be unlawful for the operator of an addictive internet-based service or application, between the hours of 12 a.m. and 6 a.m., in the user’s local time zone, and between the hours of 8 a.m. and 3 p.m., from Monday through Friday from September through May in the user’s local time zone, to send notifications to a user whom the operator has not reasonably determined is not a minor, including pursuant to regulations promulgated by the Attorney General, unless the operator has obtained verifiable parental consent to send those notifications.",
-        "word_count": 96
+        "text": "Commencing January 1, 2027, it shall be unlawful for the operator of an addictive internet-based service or application, between the hours of 12 a.m. and 6 a.m., in the user’s local time zone, and between the hours of 8 a.m. and 3 p.m., from Monday through Friday from September through May in the user’s local time zone, to send notifications to a user whom the operator has not reasonably determined is not a minor, including pursuant to regulations promulgated by the Attorney General, unless the operator has obtained verifiable parental consent to send those notifications.",
+        "word_count": 101
     },
     {
         "kb": "California_state_law",
         "article_number": "b",
         "type": "Section 22675",
-        "text": "b The operator of an addictive internet-based service or application shall provide a mechanism through which the verified parent of a user who is a minor may do any of the following:",
-        "word_count": 32
+        "text": "The operator of an addictive internet-based service or application shall provide a mechanism through which the verified parent of a user who is a minor may do any of the following:",
+        "word_count": 31
     },
     {
         "kb": "California_state_law",
         "article_number": "1",
         "type": "Section 22675",
-        "text": "1 Prevent their child from accessing or receiving notifications from the addictive internet-based service or application between specific hours chosen by the parent. This setting shall be set by the operator as on by default, in a manner in which the child’s access is limited between the hours of 12 a.m. and 6 a.m., in the user’s local time zone.",
-        "word_count": 60
+        "text": "Prevent their child from accessing or receiving notifications from the addictive internet-based service or application between specific hours chosen by the parent. This setting shall be set by the operator as on by default, in a manner in which the child’s access is limited between the hours of 12 a.m. and 6 a.m., in the user’s local time zone.",
+        "word_count": 63
     },
     {
         "kb": "California_state_law",
         "article_number": "2",
         "type": "Section 22675",
-        "text": "2 Limit their child’s access to any addictive feed from the addictive internet-based service or application to a length of time per day specified by the verified parent. This setting shall be set by the operator as on by default, in a manner in which the child’s access is limited to one hour per day unless modified by the verified parent.",
-        "word_count": 61
+        "text": "Limit their child’s access to any addictive feed from the addictive internet-based service or application to a length of time per day specified by the verified parent. This setting shall be set by the operator as on by default, in a manner in which the child’s access is limited to one hour per day unless modified by the verified parent.",
+        "word_count": 62
     },
     {
         "kb": "California_state_law",
         "article_number": "3",
         "type": "Section 22675",
-        "text": "3 Limit their child’s ability to view the number of likes or other forms of feedback to pieces of media within an addictive feed. This setting shall be set by the operator as on by default.",
+        "text": "Limit their child’s ability to view the number of likes or other forms of feedback to pieces of media within an addictive feed. This setting shall be set by the operator as on by default.",
         "word_count": 36
     },
     {
         "kb": "California_state_law",
         "article_number": "4",
         "type": "Section 22675",
-        "text": "4 Require that the default feed provided to the child when entering the internet-based service or application be one in which pieces of media are not recommended, selected, or prioritized for display based on information provided by the user, or otherwise associated with the user or the user’s device, other than the user’s age or status as a minor.",
-        "word_count": 59
+        "text": "Require that the default feed provided to the child when entering the internet-based service or application be one in which pieces of media are not recommended, selected, or prioritized for display based on information provided by the user, or otherwise associated with the user or the user’s device, other than the user’s age or status as a minor.",
+        "word_count": 60
     },
     {
         "kb": "California_state_law",
         "article_number": "5",
         "type": "Section 22675",
-        "text": "5 Set their child’s account to private mode, in a manner in which only users to whom the child is connected on the addictive internet-based service 91 Ch. 321 —6— or application may view or respond to content posted by the child. This setting shall be set by the operator as on by default. 27003.",
+        "text": "Set their child’s account to private mode, in a manner in which only users to whom the child is connected on the addictive internet-based service 91 Ch. 321 —6— or application may view or respond to content posted by the child. This setting shall be set by the operator as on by default. 27003.",
         "word_count": 55
     },
     {
         "kb": "California_state_law",
         "article_number": "a",
         "type": "Section 22675",
-        "text": "a This chapter shall not be construed as requiring the operator of an addictive internet-based service or application to give a parent any additional or special access to, or control over, the data or accounts of their child.",
-        "word_count": 38
+        "text": "This chapter shall not be construed as requiring the operator of an addictive internet-based service or application to give a parent any additional or special access to, or control over, the data or accounts of their child.",
+        "word_count": 37
     },
     {
         "kb": "California_state_law",
         "article_number": "b",
         "type": "Section 22675",
-        "text": "b This chapter shall not be construed as preventing any action taken in good faith to restrict access to, or availability of, media. 27004.",
-        "word_count": 24
+        "text": "This chapter shall not be construed as preventing any action taken in good faith to restrict access to, or availability of, media. 27004.",
+        "word_count": 23
     },
     {
         "kb": "California_state_law",
         "article_number": "a",
         "type": "Section 22675",
-        "text": "a An operator may choose not to provide services to minors. However, the operator of an addictive internet-based service or application shall not withhold, degrade, lower the quality of, or increase the price of, any product, service, or feature, other than as required by this chapter, due to auser or parent availing themselves of the rights provided by this chapter, or due to the protections required by this chapter.",
-        "word_count": 69
+        "text": "An operator may choose not to provide services to minors. However, the operator of an addictive internet-based service or application shall not withhold, degrade, lower the quality of, or increase the price of, any product, service, or feature, other than as required by this chapter, due to auser or parent availing themselves of the rights provided by this chapter, or due to the protections required by this chapter.",
+        "word_count": 68
     },
     {
         "kb": "California_state_law",
         "article_number": "b",
         "type": "Section 22675",
-        "text": "b A parent’s provision of consent as described in",
+        "text": "A parent’s provision of consent as described in",
         "word_count": 9
     },
     {
         "kb": "California_state_law",
         "article_number": "c",
         "type": "Section 27002",
-        "text": ", does not waive, release, otherwise limit, or serve as a defense to, any claim that the parent, or that the user who is a minor or was a minor at the time of using the internet-based service or application, might have against the operator of an addictive internet-based service or application regarding any harm to the mental health or well-being of the user. c The protections provided by this chapter are in addition to those provided by any other applicable law, including, but not limited to, the California Age-Appropriate Design Code Act (Title 1.81.47 (commencing with",
-        "word_count": 97
+        "text": "The protections provided by this chapter are in addition to those provided by any other applicable law, including, but not limited to, the California Age-Appropriate Design Code Act (Title 1.81.47 (commencing with",
+        "word_count": 34
     },
     {
         "kb": "California_state_law",
         "article_number": "a",
         "type": "Section 27002",
-        "text": "are or are not enabled. 27006. a This chapter may only be enforced in a civil action brought in the name of the people of the State of California by the Attorney General.",
-        "word_count": 33
+        "text": "This chapter may only be enforced in a civil action brought in the name of the people of the State of California by the Attorney General.",
+        "word_count": 26
     },
     {
         "kb": "California_state_law",
         "article_number": "b",
         "type": "Section 27002",
-        "text": "b The Attorney General shall adopt regulations to further the purposes of this chapter, including regulations regarding age assurance and parental consent by January 1, 2027. The Attorney General may adopt regulations that provide for exceptions to this chapter, but only if those exceptions further the purpose of protecting minors.",
-        "word_count": 50
+        "text": "The Attorney General shall adopt regulations to further the purposes of this chapter, including regulations regarding age assurance and parental consent by January 1, 2027. The Attorney General may adopt regulations that provide for exceptions to this chapter, but only if those exceptions further the purpose of protecting minors.",
+        "word_count": 49
     },
     {
         "kb": "California_state_law",
         "article_number": "c",
         "type": "Section 27002",
-        "text": "c In promulgating the regulations described in subdivision",
-        "word_count": 8
-    },
-    {
-        "kb": "California_state_law",
-        "article_number": "b",
-        "type": "Section 27002",
-        "text": "b , the Attorney General shall solicit public comment regarding the impact that any regulation might have based on the nondiscrimination characteristics set forth in",
-        "word_count": 25
+        "text": "In promulgating the regulations described in subdivision (b), the Attorney General shall solicit public comment regarding the impact that any regulation might have based on the nondiscrimination characteristics set forth in",
+        "word_count": 31
     }
 ]
