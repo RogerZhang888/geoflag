@@ -1,3 +1,5 @@
+![Marketing1](https://raw.githubusercontent.com/RogerZhang888/geoflag/main/marketing/marketing-github-1.png)
+
 # GeoFlag
 
 **GeoFlag** is a private LLM-powered compliance dashboard that helps global apps navigate complex region-specific regulations. With an interactive world map, polygon-based compliance visualization, and feature management, GeoComply ensures that legal obligations are visible, auditable, and actionable in real-time.
@@ -69,7 +71,7 @@ GeoFlag combines cutting-edge AI with modern web tech:
 
 ---
 
-## 🚀 What's Next for GeoFlag 
+## 🚀 What's Next for GeoFlag
 
 - **Expand Regulatory Sources**: Add more policies and documents for RAG.
 - **Feature Insights**: Provide recommended fixes for non-compliant features.
