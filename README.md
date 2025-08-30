@@ -35,6 +35,8 @@ GeoFlag combines cutting-edge AI with modern web tech:
 - **Interactive Frontend**: Built with Next.js and ShadCN UI for a smooth, responsive dashboard.
 - **Global Visualization**: Polygon-based world map shows compliant/non-compliant regions in real-time. 🌐
 
+![Marketing2](https://raw.githubusercontent.com/RogerZhang888/geoflag/main/marketing/marketing-github-2.png)
+
 ## 👨‍💻 Technologies Used
 
 - **Languages**: JavaScript, TypeScript, Python
@@ -111,3 +113,5 @@ npm run dev
 - Roger Zhang (Backend Engineer) - [LinkedIn](https://www.linkedin.com/in/roger-zhang-33b98a262/)
 
 - Gerald Fong Shao En (Data Engineer) [LinkedIn](https://www.linkedin.com/in/gerald-fong-shao-en/)
+
+![Marketing3](https://raw.githubusercontent.com/RogerZhang888/geoflag/main/marketing/marketing-github-3.png)
