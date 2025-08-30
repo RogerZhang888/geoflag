@@ -104,7 +104,7 @@ npm run dev
 
 - Tham Kei Lok (Lead Architect/Team Lead) - [LinkedIn](https://www.linkedin.com/in/keiloktql/)
 
-- Wang Jia Hua (Frontend Engineer) - [LinkedIn](https://www.linkedin.com/in/jiahua-wang-74ewfb/)
+- Wang Jiahua (Frontend Engineer) - [LinkedIn](https://www.linkedin.com/in/jiahua-wang-74ewfb/)
 
 - Roger Zhang (Backend Engineer) - [LinkedIn](https://www.linkedin.com/in/roger-zhang-33b98a262/)
 
