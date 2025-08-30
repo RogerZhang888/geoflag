@@ -25,13 +25,16 @@ import { supabaseClient } from "@/lib/supabase/client";
 import { MASTER_COORDS } from "@/lib/openstreetmap/simplified/coords";
 import ColorScale from "@/components/ColorScale";
 import FlagIcon from "@/components/FlagIcon";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 const Polygon = dynamic(
   () => import("react-leaflet").then((mod) => mod.Polygon),
   { ssr: false }
 );
-const Tooltip = dynamic(
-  () => import("react-leaflet").then((mod) => mod.Tooltip),
+const Popup = dynamic(
+  () => import("react-leaflet").then((mod) => mod.Popup),
   { ssr: false }
 );
 
@@ -94,32 +97,36 @@ export default function Home() {
               fillOpacity: 0.3,
             }}
           >
-            <Tooltip sticky>
-              <div className="text-base flex gap-2 flex-row items-center">
-                <FlagIcon place={reg}/> {regionFullNames[reg]} (
-                {numCompliant} / {totalFeatures} features compliant)
+            <Popup className="w-110">
+              <div
+                className={`${inter.className} w-100`}
+              >
+                <div className="text-base flex gap-2 flex-row items-center">
+                  <FlagIcon place={reg}/> {regionFullNames[reg]} (
+                  {numCompliant} / {totalFeatures} features compliant)
+                </div>
+                <div className="mt-2 text-xs overflow-y-auto h-50" >
+                  <strong>✅ Compliant ({numCompliant}):</strong>
+                  <ul className="list-disc list-inside">
+                    {featuresCompliant.map((feature) => (
+                      <li key={`comp-${feature.id}`}>{feature.feature}</li>
+                    ))}
+                  </ul>
+                  <strong>❌ Non-Compliant ({numNotCompliant}):</strong>
+                  <ul className="list-disc list-inside">
+                    {featuresNotCompliant.map((feature) => (
+                      <li key={`noncomp-${feature.id}`}>{feature.feature}</li>
+                    ))}
+                  </ul>
+                  <strong>❔ Unknown ({numUnknown}):</strong>
+                  <ul className="list-disc list-inside">
+                    {featuresUnknown.map((feature) => (
+                      <li key={`unkn-${feature.id}`}>{feature.feature}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div className="mt-2" style={{fontSize: "10px"}}>
-                <strong>✅ Compliant ({numCompliant}):</strong>
-                <ul className="list-disc list-inside">
-                  {featuresCompliant.map((feature) => (
-                    <li key={`comp-${feature.id}`}>{feature.feature}</li>
-                  ))}
-                </ul>
-                <strong>❌ Non-Compliant ({numNotCompliant}):</strong>
-                <ul className="list-disc list-inside">
-                  {featuresNotCompliant.map((feature) => (
-                    <li key={`noncomp-${feature.id}`}>{feature.feature}</li>
-                  ))}
-                </ul>
-                <strong>❔ Unknown ({numUnknown}):</strong>
-                <ul className="list-disc list-inside">
-                  {featuresUnknown.map((feature) => (
-                    <li key={`unkn-${feature.id}`}>{feature.feature}</li>
-                  ))}
-                </ul>
-              </div>
-            </Tooltip>
+            </Popup>
           </Polygon>
         );
       });
