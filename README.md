@@ -14,7 +14,7 @@ Global apps like TikTok must comply with dozens of regional regulations—from G
 
 ## 🎯 What It Does
 
-GeoComply allows users to:
+GeoFlag allows users to:
 
 - **Visualize Global Compliance**: World map with green/red polygons to indicate feature compliance per region.
 - **CRUD Features & Descriptions**: Track every feature and its regulatory requirements.
@@ -25,7 +25,7 @@ GeoComply allows users to:
 
 ## 🛠️ How We Built It
 
-GeoComply combines cutting-edge AI with modern web tech:
+GeoFlag combines cutting-edge AI with modern web tech:
 
 - **LLM Intelligence**: Uses Ollama LLM for analyzing feature compliance. 🤖
 - **RAG (Retrieval-Augmented Generation)**: Incorporates policies stored in Supabase and vector DB to provide precise regulatory context.
@@ -69,7 +69,7 @@ GeoComply combines cutting-edge AI with modern web tech:
 
 ---
 
-## 🚀 What's Next for GeoComply
+## 🚀 What's Next for GeoFlag 
 
 - **Expand Regulatory Sources**: Add more policies and documents for RAG.
 - **Feature Insights**: Provide recommended fixes for non-compliant features.
