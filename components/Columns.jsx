@@ -1,6 +1,10 @@
 "use client";
 
-import { getFlagEmoji, regionFullNames } from "@/lib/utils";
+import {
+  cleanIsCompliantData,
+  getFlagEmoji,
+  regionFullNames
+} from "@/lib/utils";
 import { Badge } from "./ui/badge";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import FlagIcon from "./FlagIcon";
@@ -41,13 +45,9 @@ export const columns = [
     header: "Compliance",
     cell: ({ row }) => {
       const v = row.getValue("isCompliant");
-      const compDat = JSON.parse(v);
-      const isAllCompliant = Object.values(compDat).every((v) => v === "true");
-      const isNoneCompliant = Object.values(compDat).every(
-        (v) => v === "false"
-      );
-
-      console.log(compDat)
+      const compDat = cleanIsCompliantData(v);
+      const isAllCompliant = Object.values(compDat).every((v) => v === true);
+      const isNoneCompliant = Object.values(compDat).every((v) => v === false);
 
       return (
         <div className="max-w-[250px] text-center">
@@ -71,17 +71,23 @@ export const columns = [
               </Badge>
             </TooltipTrigger>
             <TooltipContent className="flex flex-col gap-2">
-              {Object
-                .entries(compDat)
+              {Object.entries(compDat)
                 .sort((a, b) => b[0] - a[0])
                 .map(([r, c], idx) => (
-                <div key={idx} className="text-sm flex flex-row items-center gap-2">
-                  <FlagIcon place={r}/> {regionFullNames[r]}:{" "}
-                  <span
-                    className={
-                      c === "true" ? "text-green-600" : c === "false" ? "text-red-600" : "text-gray-600"
-                    }
+                  <div
+                    key={idx}
+                    className="text-sm flex flex-row items-center gap-2"
                   >
+                    <FlagIcon place={r} /> {regionFullNames[r]}:{" "}
+                    <span
+                      className={
+                        c === "true"
+                          ? "text-green-600"
+                          : c === "false"
+                            ? "text-red-600"
+                            : "text-gray-600"
+                      }
+                    />
                     <FlagIcon place={r} /> {regionFullNames[r]}:{" "}
                     <span
                       className={
